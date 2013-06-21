@@ -1,3 +1,16 @@
+var photoGalleryApp = angular.module('galleryApp', []);
+
+photoGalleryApp.config(function($routeProvider){
+	$routeProvider
+		.when('/', {controller: galleryContoller, templateUrl: '/html/photos.html'})
+		.when('/photo', {controller: photoDetailsCtrl, templateUrl: '/html/details.html'})
+		.otherwise({redirectTo: '/'});
+});
+
+function photoDetailsCtrl($scope){
+	$scope.mf = 'ebana';
+}
+
 function galleryContoller($scope){
 	$scope.photos = [
 		{ name: 'photo 1', src: '/images/1.png', desc: 'description 111'},
