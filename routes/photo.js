@@ -31,5 +31,11 @@ module.exports = function(app){
 
         res.send('done');
     });
+
+    app.post('/photo/upload', function(req, res){
+        console.log(req.files);
+
+        res.send(req.files);
+    });
 }
 

@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/photo/upload.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/photo.js" afterPath="$PROJECT_DIR$/routes/photo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/photoGallery.js" afterPath="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372684347393" ignored="false" />
-    <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372682460141" ignored="false" />
-    <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372684497505" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372684518551" ignored="false" />
+    <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372689678513" ignored="false" />
+    <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372689778845" ignored="false" />
     <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372671353504" ignored="false" />
-    <file path="/photoGallery.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372672033761" ignored="false" />
+    <file path="/photoGallery.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372689585875" ignored="false" />
     <file path="/details.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372680274281" ignored="false" />
     <file path="/photos.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372680158615" ignored="false" />
+    <file path="/upload.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372689544291" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,25 +39,7 @@
       <file leaf-file-name="photoGallery.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="44" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="details.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="38" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.3076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photos.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/photos.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="11" column="56" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,27 +48,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="50" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photoGalleryService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#158#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="72" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+            <state line="35" column="40" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,10 +57,19 @@
       <file leaf-file-name="photo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/photo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="25" selection-start="905" selection-end="905" vertical-scroll-proportion="0.63622755">
+            <state line="37" column="28" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.78892213">
               <folding>
                 <element signature="e#0#158#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/photo/upload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="42" selection-start="209" selection-end="209" vertical-scroll-proportion="-2.6153846">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -120,9 +94,10 @@
       <list>
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
         <option value="$PROJECT_DIR$/public/html/photos.html" />
         <option value="$PROJECT_DIR$/public/html/details.html" />
+        <option value="$PROJECT_DIR$/public/html/photo/upload.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/photo.js" />
       </list>
@@ -271,6 +246,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoGallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoGallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -280,6 +277,7 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager" selected="Node.js.PhotoGallery">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -330,7 +328,11 @@
       <created>1372684355481</created>
       <updated>1372684355481</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="little fix">
+      <created>1372684525755</created>
+      <updated>1372684525755</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -398,7 +400,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add simple data population func" />
+    <option name="LAST_COMMIT_MESSAGE" value="little fix" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -413,6 +415,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="add simple data population func" />
+    <MESSAGE value="little fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -439,6 +442,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="72" selection-start="119" selection-end="119" vertical-scroll-proportion="0.15269461">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="29" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0508982">
+          <folding>
+            <element signature="e#0#158#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/html/photos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
@@ -448,51 +474,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/html/details.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="38" selection-start="96" selection-end="96" vertical-scroll-proportion="-1.3076923">
+        <state line="2" column="38" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0529595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/photo/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="42" selection-start="209" selection-end="209" vertical-scroll-proportion="-2.6153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="44" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#158#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="72" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
+        <state line="11" column="56" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="50" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="35" column="40" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/photo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="25" selection-start="905" selection-end="905" vertical-scroll-proportion="0.63622755">
+        <state line="37" column="28" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.78892213">
           <folding>
             <element signature="e#0#158#0" expanded="false" />
           </folding>
