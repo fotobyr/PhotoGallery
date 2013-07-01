@@ -7,7 +7,8 @@
  */
 
 angular.module('photoGalleryService', ['ngResource']).factory('Photo', function($resource){
-    return $resource('/photo', {}, {
-        list: { method: 'GET', isArray: true }
+    return $resource('/photo/:photoId', {}, {
+        list: { method: 'GET', isArray: true },
+        get: { method: 'GET' }
     });
 });

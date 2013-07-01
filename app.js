@@ -31,6 +31,7 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get('/users', user.list);
 app.get('/users/:userId', user.details);
+app.get('/photo/:photoId', photo.get);
 app.get('/photo', photo.list);
 
 http.createServer(app).listen(app.get('port'), function(){

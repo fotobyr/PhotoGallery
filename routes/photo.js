@@ -17,3 +17,14 @@ exports.list = function(req, res){
 
     res.json(photos)
 }
+
+exports.get = function(req, res){
+
+    var photo = {
+        id: req.params.photoId,
+        name: 'requested id# ' + req.params.photoId,
+        comments: null
+    };
+
+    res.json(photo);
+}
