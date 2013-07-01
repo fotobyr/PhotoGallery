@@ -1,4 +1,4 @@
-var photoGalleryApp = angular.module('galleryApp', []);
+var photoGalleryApp = angular.module('galleryApp', ['photoGalleryService']);
 
 photoGalleryApp.config(function($routeProvider){
 	$routeProvider
@@ -11,11 +11,6 @@ function photoDetailsCtrl($scope){
 	$scope.mf = 'ebana';
 }
 
-function galleryCtrl($scope){
-	$scope.photos = [
-		{ name: 'photo 1', src: '/images/1.png', desc: 'description 111'},
-		{ name: 'photo 2', src: '/images/2.png', desc: 'description 222'},
-		{ name: 'photo 3', src: '/images/3.png', desc: 'description 333'},
-        { name: 'photo 666', src: '/images/3.png', desc: 'description 333'},
-	];
+function galleryCtrl($scope, Photo){
+	$scope.photos = Photo.list();
 }
