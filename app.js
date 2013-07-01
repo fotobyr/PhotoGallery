@@ -5,8 +5,6 @@
 
 var express = require('express')
   , routes = require('./routes')
-  , user = require('./routes/user')
-  , photo = require('./routes/photo')
   , http = require('http')
   , path = require('path');
 
@@ -14,6 +12,7 @@ var app = express();
 
 // all environments
 app.set('port', process.env.PORT || 3000);
+app.set('mongoDB', process.env.mongoDB || 'localhost/gallery');
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(express.favicon());
@@ -28,12 +27,15 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+var user = require('./routes/user');
+
+require('./routes/photo')(app);
+
 app.get('/', routes.index);
 app.get('/users', user.list);
 app.get('/users/:userId', user.details);
-app.get('/photo/:photoId', photo.get);
-app.get('/photo', photo.list);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
+
