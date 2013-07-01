@@ -28,6 +28,8 @@ module.exports = function(app){
             photos.insert({name: 'photo 2', desc: 'desc 3'});
             photos.insert({name: 'photo 3', desc: 'desc 6'});
             photos.insert({name: 'photo 666', desc: 'desc 1'});
+
+        res.send('done');
     });
 }
 
