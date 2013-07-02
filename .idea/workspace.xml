@@ -7,7 +7,7 @@
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372762442626" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372762614720" ignored="false" />
     <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372689678513" ignored="false" />
     <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372689778845" ignored="false" />
     <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372671353504" ignored="false" />
@@ -55,7 +55,7 @@
       <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="144" selection-end="144" vertical-scroll-proportion="0.18535826">
+            <state line="7" column="27" selection-start="143" selection-end="143" vertical-scroll-proportion="0.18535826">
               <folding />
             </state>
           </provider>
@@ -370,7 +370,11 @@
       <created>1372762445569</created>
       <updated>1372762445569</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="specify nodejs version">
+      <created>1372762617972</created>
+      <updated>1372762617972</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -438,7 +442,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="try to change express version" />
+    <option name="LAST_COMMIT_MESSAGE" value="specify nodejs version" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -459,6 +463,7 @@
     <MESSAGE value="change upload folder to local from temp" />
     <MESSAGE value="add IISNode configuration" />
     <MESSAGE value="try to change express version" />
+    <MESSAGE value="specify nodejs version" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -561,7 +566,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="144" selection-end="144" vertical-scroll-proportion="0.18535826">
+        <state line="7" column="27" selection-start="143" selection-end="143" vertical-scroll-proportion="0.18535826">
           <folding />
         </state>
       </provider>
