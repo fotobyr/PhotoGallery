@@ -17,15 +17,15 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(express.favicon());
 app.use(express.logger('dev'));
-app.use(express.bodyParser());
+app.use(express.bodyParser({uploadDir:'./temp'}));
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
-//if ('development' == app.get('env')) {
+if ('development' == app.get('env')) {
   app.use(express.errorHandler());
-//}
+}
 
 var user = require('./routes/user');
 
