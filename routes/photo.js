@@ -36,6 +36,20 @@ module.exports = function(app){
     app.post('/photo/upload', function(req, res){
         console.log(req.files);
 
+        var accountName = 'gengzu2gallery';
+        var accountKey = '1VZNALenihkQ+CcaOyks7wb2zGm+ckk/fAOnwk7Xtx92kFhenZi0JkMUEpT5LnTTezdZgw3jpB/yqhaH/ZMv/Q==';
+        var host = accountName + '.blob.core.windows.net';
+        var blobService = azure.createBlobService(accountName, accountKey, host).withFilter(new azure.ExponentialRetryPolicyFilter());
+
+        blobService.createBlockBlobFromFile('photos'
+            , req.files.imageFile.name
+            , req.files.imageFile.path
+            , function(error){
+                if(!error){
+                    console.log('uploaded');
+                }
+            });
+
         res.send(req.files);
     });
 }
