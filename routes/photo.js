@@ -8,6 +8,7 @@
 
 module.exports = function(app){
 
+    var azure = require('azure');
     var db = require('monk')(app.get('mongoDB'));
     var photos = db.get('photos');
 
