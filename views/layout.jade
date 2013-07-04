@@ -8,5 +8,25 @@ html(ng-app='galleryApp')
     script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular-resource.min.js')
     script(type='text/javascript', src='/javascripts/photoGallery.js')
     script(type='text/javascript', src='/javascripts/photoGalleryService.js')
-  body(ng-view)
-    block content
+  body
+    div.container
+      div.navbar
+        div.navbar-inner
+         div.container
+          a.brand
+           | photo gallery
+          div.nav-collapse
+           ul.nav
+            li link1
+            li link2
+            li link3
+            li link4
+            li link5
+          | login control
+
+      div.container(ng-view)
+       block content
+
+      hr
+      footer
+       p © Simple photo gallery 2013
