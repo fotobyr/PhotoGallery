@@ -17,12 +17,14 @@ html(ng-app='galleryApp')
            | photo gallery
           div.nav-collapse
            ul.nav
-            li link1
-            li link2
-            li link3
-            li link4
-            li link5
-          | login control
+            li: a(href='#') Главная
+            li: a(href='#') Призеры
+            li: a(href='#') Загрузить
+            li: a(href='#') Отзывы
+            li: a(href='#') О нас
+           ul.nav.pull-right
+            li: a(href='#') Войти
+            li: a(href='#') Регистрация
 
       div.container(ng-view)
        block content
