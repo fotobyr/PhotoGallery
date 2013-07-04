@@ -24,7 +24,7 @@ angular.module('photoGalleryService', ['ngResource'])
                     timer = $timeout(function(){
                         photosCache.put('list', null);
                         timer = null;
-                    }, 10000);
+                    }, 60000);
                 }
 
                 var photosList = photosCache.get('list');

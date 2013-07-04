@@ -1,5 +1,26 @@
-<form method="post" enctype="multipart/form-data" action="/photo/upload">
-    <input type="file" name="imageFile" />
-    <input type="text" name="fileName" />
-    <input type="submit" value="Upload" />
+<form method="post" enctype="multipart/form-data" action="/photo/upload" class="form-horizontal">
+
+    <fieldset>
+        <legend>Загрузить фото</legend>
+
+        <div class="control-group">
+            <label class="control-label" for="fileName">Название фото</label>
+            <div class="controls">
+                <input type="text" name="fileName" id="fileName" />
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label" for="fileInput">Файл</label>
+            <div class="controls">
+                <input type="file" id="imageFile" name="imageFile" class="input-file" onchange="SetImageTitle();" />
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" value="Upload" class="btn btn-primary">Сохранить</button>&nbsp;<a href='#' class='btn'>Отмена</a>
+        </div>
+
+    </fieldset>
+
 </form>
