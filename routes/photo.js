@@ -37,7 +37,8 @@ module.exports = function(app){
         var promise = photos.insert({
             title: req.param('fileName', req.files.imageFile.name),
             fileOriginalName: req.files.imageFile.name,
-            fileExt: fileExt
+            fileExt: fileExt,
+            added: new Date()
         });
 
         promise.success(function(doc){

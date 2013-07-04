@@ -5,12 +5,12 @@ photoGalleryApp.config(function($routeProvider, $locationProvider){
 	$routeProvider
 		.when('/', {controller: galleryCtrl, templateUrl: '/html/photos.html'})
         .when('/photo/upload', { templateUrl: '/html/photo/upload.html' })
-		.when('/photo/:photoId', {controller: photoDetailsCtrl, templateUrl: '/html/details.html'})
+		.when('/photo/:photoId', {controller: photoDetailsCtrl, templateUrl: '/html/photo/details.html'})
 		.otherwise({redirectTo: '/'});
 });
 
 function photoDetailsCtrl($scope, $routeParams, Photo){
-	$scope.currentPhoto = Photo.get($routeParams.photoId);
+	$scope.photo = Photo.get($routeParams.photoId);
 }
 
 function galleryCtrl($scope, Photo){

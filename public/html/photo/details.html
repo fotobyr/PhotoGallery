@@ -1,0 +1,35 @@
+<h1>{{ photo.title || photo.name || photo.fileOriginalName }}</h1>
+<div class="row show-grid">
+    <div class="span8">
+        <img src="http://gengzu2gallery.blob.core.windows.net/photos/{{ photo._id }}.{{ photo.fileExt }}" alt="{{ photo.title || photo.name || photo.fileOriginalName }}" title="{{ photo.title || photo.name || photo.fileOriginalName }}" />
+    </div>
+    <div class="span4">
+        <div class="well">
+            <h3>О фото</h3>
+            <dl>
+                <dt>Текущий рейтинг</dt>
+                <dd>0</dd>
+                <dt>Общий рейтинг</dt>
+                <dd>0</dd>
+                <dt>Добавлено</dt>
+                <dd>{{ photo.added | date:'dd MMMM yyyy' }}</dd>
+                <dt>Проголосовать</dt>
+                <dd>
+                    control
+                </dd>
+            </dl>
+        </div>
+
+        <div class="well">
+            <h3>О авторе</h3>
+            <dl>
+                <dt>Имя</dt>
+                <dd><a href="/@Model.User.Id">[user name]</a></dd>
+                <dt>Дата регистрации</dt>
+                <dd>[date]</dd>
+            </dl>
+        </div>
+
+    </div>
+</div>
+<br />
