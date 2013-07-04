@@ -24,31 +24,32 @@ module.exports = function(app){
         });
     });
 
-    app.get('/populate_photo', function(req, res){
-            photos.insert({name: 'photo 1', desc: 'desc 2'});
-            photos.insert({name: 'photo 2', desc: 'desc 3'});
-            photos.insert({name: 'photo 3', desc: 'desc 6'});
-            photos.insert({name: 'photo 666', desc: 'desc 1'});
-
-        res.send('done');
-    });
-
     app.post('/photo/upload', function(req, res){
-        console.log(req.files);
 
         var accountName = 'gengzu2gallery';
         var accountKey = '1VZNALenihkQ+CcaOyks7wb2zGm+ckk/fAOnwk7Xtx92kFhenZi0JkMUEpT5LnTTezdZgw3jpB/yqhaH/ZMv/Q==';
         var host = accountName + '.blob.core.windows.net';
         var blobService = azure.createBlobService(accountName, accountKey, host).withFilter(new azure.ExponentialRetryPolicyFilter());
 
-        blobService.createBlockBlobFromFile('photos'
-            , req.files.imageFile.name
-            , req.files.imageFile.path
-            , function(error){
-                if(!error){
-                    console.log('uploaded');
-                }
-            });
+        var fileName = req.files.imageFile.name;
+        var fileExt = fileName.split('.')[fileName.split('.').length - 1];
+
+        var promise = photos.insert({
+            title: req.param('fileName', req.files.imageFile.name),
+            fileOriginalName: req.files.imageFile.name,
+            fileExt: fileExt
+        });
+
+        promise.success(function(doc){
+            blobService.createBlockBlobFromFile('photos'
+                , doc._id + '.' + fileExt
+                , req.files.imageFile.path
+                , function(error){
+                    if(!error){
+                        console.log('uploaded');
+                    }
+                });
+        });
 
         res.send(req.files);
     });

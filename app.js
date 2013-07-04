@@ -28,6 +28,7 @@ if ('development' == app.get('env')) {
 }
 
 var user = require('./routes/user');
+user.appPort = '666';
 
 require('./routes/photo')(app);
 

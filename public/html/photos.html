@@ -1,7 +1,7 @@
 list of photos
 
 <ul>
-	<li ng-repeat='photo in photos'><a href='#/photo/{{ photo._id }}'>{{ photo.name }}</a></li>
+	<li ng-repeat='photo in photos'><a href='#/photo/{{ photo._id }}'>{{ photo.title || photo.name || photo.fileOriginalName }}</a></li>
 </ul>
 
 end of
