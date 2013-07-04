@@ -1,7 +1,7 @@
-list of photos
-
-<ul>
-	<li ng-repeat='photo in photos'><a href='#/photo/{{ photo._id }}'>{{ photo.title || photo.name || photo.fileOriginalName }}</a></li>
+<ul class="thumbnails">
+    <li class="span2" ng-repeat='photo in photos'>
+        <a href="#/photo/{{ photo._id }}" class="thumbnail">
+            <img src="http://gengzu2gallery.blob.core.windows.net/photos/{{ photo._id }}.{{ photo.fileExt }}" alt="{{ photo.title || photo.name || photo.fileOriginalName }}" title="{{ photo.title || photo.name || photo.fileOriginalName }}" />
+        </a>
+    </li>
 </ul>
-
-end of
