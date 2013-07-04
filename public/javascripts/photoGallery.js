@@ -10,7 +10,7 @@ photoGalleryApp.config(function($routeProvider, $locationProvider){
 });
 
 function photoDetailsCtrl($scope, $routeParams, Photo){
-	$scope.currentPhoto = Photo.get({photoId: $routeParams.photoId });
+	$scope.currentPhoto = Photo.get($routeParams.photoId);
 }
 
 function galleryCtrl($scope, Photo){
