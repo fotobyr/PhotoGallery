@@ -26,8 +26,8 @@ module.exports = function(app){
 
     app.post('/photo/upload', function(req, res){
 
-        var accountName = 'gengzu2gallery';
-        var accountKey = '1VZNALenihkQ+CcaOyks7wb2zGm+ckk/fAOnwk7Xtx92kFhenZi0JkMUEpT5LnTTezdZgw3jpB/yqhaH/ZMv/Q==';
+        var accountName = req.app.settings.blobAccountName;
+        var accountKey = req.app.settings.blobAccountKey;
         var host = accountName + '.blob.core.windows.net';
         var blobService = azure.createBlobService(accountName, accountKey, host).withFilter(new azure.ExponentialRetryPolicyFilter());
 
@@ -42,7 +42,7 @@ module.exports = function(app){
         });
 
         promise.success(function(doc){
-            blobService.createBlockBlobFromFile('photos'
+            blobService.createBlockBlobFromFile(req.app.settings.blobPhotoName
                 , doc._id + '.' + fileExt
                 , req.files.imageFile.path
                 , function(error){
@@ -52,6 +52,7 @@ module.exports = function(app){
                 });
         });
 
+        console.log('response sent');
         res.send(req.files);
     });
 }

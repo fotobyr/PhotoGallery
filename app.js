@@ -13,6 +13,12 @@ var app = express();
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('mongoDB', process.env.mongoDB || 'localhost/gallery');
+
+app.set('blobAccountName', process.env.blobAccountName || ''); // gengzu2gallery
+app.set('blobAccountKey', process.env.blobAccountKey || ''); // 1VZNALenihkQ+CcaOyks7wb2zGm+ckk/fAOnwk7Xtx92kFhenZi0JkMUEpT5LnTTezdZgw3jpB/yqhaH/ZMv/Q==
+app.set('blobPhotoName', process.env.blobPhotoName || 'photos');
+app.set('blobThumbnailsName', process.env.blobThumbnailsName || 'thumbnails');
+
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 app.use(express.favicon());
