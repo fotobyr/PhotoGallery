@@ -27,6 +27,11 @@ module.exports = function(app){
         });
     });
 
+    app.delete('/photo/:photoId', function(req, res){
+        photos.remove({_id: req.params.photoId});
+        res.json({photoId: req.params.photoId});
+    });
+
     var preparePhoto = function(photo, req){
         photo.url = getPhotoUrl(photo,req);
         return photo;
@@ -71,11 +76,10 @@ module.exports = function(app){
                     } else {
                         console.log(error);
                     }
+
+                    res.redirect('/');
                 });
         });
-
-        console.log('response sent');
-        res.send(req.files);
     });
 }
 

@@ -14,8 +14,9 @@ var app = express();
 app.set('port', process.env.PORT || 3000);
 app.set('mongoDB', process.env.mongoDB || 'localhost/gallery');
 
-app.set('blobAccountName', process.env.blobAccountName || 'devstoreaccount1'); // gengzu2gallery
-app.set('blobAccountKey', process.env.blobAccountKey || 'Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw=='); // 1VZNALenihkQ+CcaOyks7wb2zGm+ckk/fAOnwk7Xtx92kFhenZi0JkMUEpT5LnTTezdZgw3jpB/yqhaH/ZMv/Q==
+// azure blob configuration
+app.set('blobAccountName', process.env.blobAccountName || 'devstoreaccount1');
+app.set('blobAccountKey', process.env.blobAccountKey || 'Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==');
 app.set('blobStorageUrl', process.env.blobAccountName ? process.env.blobAccountName + '.blob.core.windows.net' : '127.0.0.1:10000' ); // accountName + '.blob.core.windows.net'
 app.set('blobPhotoName', process.env.blobPhotoName || 'photos');
 app.set('blobThumbnailsName', process.env.blobThumbnailsName || 'thumbnails');
@@ -33,6 +34,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+
+var configuration = require('./routes/configuration');
+app.get('/configuration', configuration.get);
 
 var user = require('./routes/user');
 user.appPort = '666';

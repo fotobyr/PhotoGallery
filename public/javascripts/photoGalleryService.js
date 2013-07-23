@@ -10,7 +10,8 @@ angular.module('photoGalleryService', ['ngResource'])
     .factory('Photo', function($resource, $cacheFactory, $timeout){
         var photos = $resource('/photo/:photoId', {}, {
             list: { method: 'GET', isArray: true },
-            get: { method: 'GET' }
+            get: { method: 'GET' },
+            delete: {method: 'DELETE'}
         });
 
         var photosCache = $cacheFactory('photos');
@@ -38,6 +39,10 @@ angular.module('photoGalleryService', ['ngResource'])
             },
             get: function(photoId){
                 return photos.get({photoId: photoId});
+            },
+            delete: function(photoId){
+                photos.delete({photoId: photoId});
+                photosCache.put('list', null);
             }
         }
 }).factory('AppConfiguration', function($resource, $cacheFactory){
@@ -55,7 +60,6 @@ angular.module('photoGalleryService', ['ngResource'])
                     cachedConfiguration = config.get();
                     configCache.put('appConfiguration', cachedConfiguration);
                 }
-
                 return cachedConfiguration;
             }
         }
