@@ -1,7 +1,7 @@
 <h1>{{ photo.title || photo.name || photo.fileOriginalName }}</h1>
 <div class="row show-grid">
     <div class="span8">
-        <img src="http://gengzu2gallery.blob.core.windows.net/photos/{{ photo._id }}.{{ photo.fileExt }}" alt="{{ photo.title || photo.name || photo.fileOriginalName }}" title="{{ photo.title || photo.name || photo.fileOriginalName }}" />
+        <img src="{{ photo.url }}" alt="{{ photo.title || photo.name || photo.fileOriginalName }}" title="{{ photo.title || photo.name || photo.fileOriginalName }}" />
     </div>
     <div class="span4">
         <div class="well">

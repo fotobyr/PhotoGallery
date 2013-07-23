@@ -40,4 +40,23 @@ angular.module('photoGalleryService', ['ngResource'])
                 return photos.get({photoId: photoId});
             }
         }
-});
+}).factory('AppConfiguration', function($resource, $cacheFactory){
+        var config = $resource('/configuration', {}, {
+            get: {method: 'GET'}
+        });
+
+        var configCache = $cacheFactory('appConfiguration');
+
+        return {
+            current: function(){
+                var cachedConfiguration = configCache.get('appConfiguration');
+
+                if (cachedConfiguration == undefined) {
+                    cachedConfiguration = config.get();
+                    configCache.put('appConfiguration', cachedConfiguration);
+                }
+
+                return cachedConfiguration;
+            }
+        }
+    });
