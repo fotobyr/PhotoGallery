@@ -45,6 +45,8 @@ angular.module('photoGalleryService', ['ngResource'])
                 photosCache.put('list', null);
             }
         }
+}).factory("User", function($resource){
+        return $resource('/user/:userId', {}, { });
 }).factory('AppConfiguration', function($resource, $cacheFactory){
         var config = $resource('/configuration', {}, {
             get: {method: 'GET'}

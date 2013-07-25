@@ -6,6 +6,13 @@ photoGalleryApp.config(function($routeProvider, $locationProvider){
 		.when('/', {controller: galleryCtrl, templateUrl: '/html/photos.html'})
         .when('/photo/upload', { templateUrl: '/html/photo/upload.html' })
 		.when('/photo/:photoId', {controller: photoDetailsCtrl, templateUrl: '/html/photo/details.html'})
+
+        .when('/admin', { templateUrl: '/html/admin/admin.html' })
+        .when('/admin/users', { controller: adminUsersCtrl, templateUrl: '/html/admin/users.html'})
+
+        .when('/login', { controller: userLoginCtrl, templateUrl: '/html/user/login.html'})
+        .when('/register', { controller: userRegisterCtrl, templateUrl: '/html/user/register.html'})
+
 		.otherwise({redirectTo: '/'});
 });
 
@@ -23,6 +30,26 @@ function photoDetailsCtrl($scope, $routeParams, $location, Photo, AppConfigurati
 
 function galleryCtrl($scope, Photo){
 	$scope.photos = Photo.list();
+}
+
+function userLoginCtrl($scope){
+
+}
+
+function userRegisterCtrl($scope, $location, User){
+    $scope.newUser = new User();
+
+    $scope.register = function(){
+        $scope.newUser.$save(function(){
+            $location.path('/');
+        },function(){
+            console.log('error');
+        });
+    }
+}
+
+function adminUsersCtrl($scope, User){
+    $scope.users = User.query();
 }
 
 

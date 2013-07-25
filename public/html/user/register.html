@@ -1,0 +1,38 @@
+<form class="form-horizontal">
+    <fieldset>
+        <legend>Регистрация</legend>
+
+        <div class="control-group">
+            <label class="control-label">Логин</label>
+            <div class="controls">
+                <input type="text" ng-model='newUser.login' />
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label">E-Mail</label>
+            <div class="controls">
+                <input type="email" ng-model='newUser.email' />
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label">Пароль</label>
+            <div class="controls">
+                <input type="password" ng-model='newUser.password' />
+            </div>
+        </div>
+
+        <div class="control-group">
+            <label class="control-label">Еще раз пароль</label>
+            <div class="controls">
+                <input type="password" ng-model='newUser.repeatPassword' />
+            </div>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" value="Upload" class="btn btn-primary" ng-click="register()">Зарегистрироваться</button>
+        </div>
+
+    </fieldset>
+</form>

@@ -39,13 +39,15 @@ var configuration = require('./routes/configuration');
 app.get('/configuration', configuration.get);
 
 var user = require('./routes/user');
-user.appPort = '666';
+/*app.get('/users', user.list);
+ app.get('/users/:userId', user.details); */
+app.get('/user', user.list);
+app.post('/user', user.create);
 
 require('./routes/photo')(app);
 
 app.get('/', routes.index);
-app.get('/users', user.list);
-app.get('/users/:userId', user.details);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
