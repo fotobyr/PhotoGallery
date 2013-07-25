@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/photoGallery.js" afterPath="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" afterPath="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374757989148" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374760874068" ignored="false" />
     <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374757488133" ignored="false" />
     <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374591754788" ignored="false" />
     <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374760797585" ignored="false" />
@@ -18,7 +16,7 @@
     <file path="/photos.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374580952785" ignored="false" />
     <file path="/upload.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372942014165" ignored="false" />
     <file path="/layout.jade" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374753297220" ignored="false" />
-    <file path="/user.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374757606992" ignored="false" />
+    <file path="/user.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374761340486" ignored="false" />
     <file path="/a.dummy" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374580645922" ignored="false" />
     <file path="/configuration.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374590226818" ignored="false" />
     <file path="/style.css" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374590886581" ignored="false" />
@@ -46,19 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="photoGalleryService.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
+      <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="32" selection-start="1706" selection-end="1706" vertical-scroll-proportion="1.0320151">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="photoGallery.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="50" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0">
+            <state line="33" column="11" selection-start="776" selection-end="776" vertical-scroll-proportion="0.6158192">
               <folding />
             </state>
           </provider>
@@ -93,11 +82,11 @@
         <option value="$PROJECT_DIR$/public/html/user/register.html" />
         <option value="$PROJECT_DIR$/public/html/admin/admin.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/public/html/admin/users.html" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
         <option value="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
+        <option value="$PROJECT_DIR$/routes/user.js" />
       </list>
     </option>
   </component>
@@ -481,7 +470,11 @@
       <created>1374757996754</created>
       <updated>1374757996754</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add notifications">
+      <created>1374760883526</created>
+      <updated>1374760883526</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -549,7 +542,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="user registration form and simple func&#10;simple admin part" />
+    <option name="LAST_COMMIT_MESSAGE" value="add notifications" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -583,6 +576,7 @@
     <MESSAGE value="app configuration settings" />
     <MESSAGE value="delete photo" />
     <MESSAGE value="user registration form and simple func&#10;simple admin part" />
+    <MESSAGE value="add notifications" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -666,13 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="399" selection-end="399" vertical-scroll-proportion="0.41619587">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="111" selection-start="672" selection-end="672" vertical-scroll-proportion="0.32015067">
@@ -680,16 +667,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="50" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.0">
+        <state line="32" column="25" selection-start="931" selection-end="931" vertical-scroll-proportion="0.29566854">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="32" selection-start="1706" selection-end="1706" vertical-scroll-proportion="1.0320151">
+        <state line="43" column="50" selection-start="1554" selection-end="1554" vertical-scroll-proportion="0.25612053">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="11" selection-start="776" selection-end="776" vertical-scroll-proportion="0.6158192">
           <folding />
         </state>
       </provider>
