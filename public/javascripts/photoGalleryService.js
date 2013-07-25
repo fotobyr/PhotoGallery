@@ -47,6 +47,21 @@ angular.module('photoGalleryService', ['ngResource'])
         }
 }).factory("User", function($resource){
         return $resource('/user/:userId', {}, { });
+}).factory('Notify', function(){
+        return {
+            info: function(msg, title){
+                toastr.info(msg, title);
+            },
+            warning: function(msg, title){
+                toastr.warning(msg, title);
+            },
+            success: function(msg, title){
+                toastr.success(msg, title);
+            },
+            error: function(msg, title){
+                toastr.error(msg, title);
+            }
+        }
 }).factory('AppConfiguration', function($resource, $cacheFactory){
         var config = $resource('/configuration', {}, {
             get: {method: 'GET'}

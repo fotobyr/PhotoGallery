@@ -36,14 +36,15 @@ function userLoginCtrl($scope){
 
 }
 
-function userRegisterCtrl($scope, $location, User){
+function userRegisterCtrl($scope, $location, User, Notify){
     $scope.newUser = new User();
 
     $scope.register = function(){
         $scope.newUser.$save(function(){
+            Notify.success('Теперь вы можете войти' ,'Пользователь успешно зарегистрирован.')
             $location.path('/');
-        },function(){
-            console.log('error');
+        },function(err){
+            Notify.error(err.data);
         });
     }
 }
