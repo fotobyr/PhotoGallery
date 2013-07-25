@@ -27,11 +27,7 @@ exports.create = function(req, res){
     var newUser = req.body;
 
     if(newUser.password != newUser.repeatPassword){
-        ///res.send(500, 'Пароли не совпадают');
-        res.render('500', {
-            status: 500,
-            error: 'Пароли не совпадают'
-        });
+        res.send(500, 'Пароли не совпадают');
         return;
     }
 
