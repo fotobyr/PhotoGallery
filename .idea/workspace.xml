@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web.config" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web.config" afterPath="$PROJECT_DIR$/web.config" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374761378685" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374763179861" ignored="false" />
     <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374757488133" ignored="false" />
     <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374591754788" ignored="false" />
     <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374760797585" ignored="false" />
@@ -57,7 +57,7 @@
       <file leaf-file-name="web.config" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web.config">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="53" selection-start="131" selection-end="131" vertical-scroll-proportion="0.096045196">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -368,7 +368,11 @@
       <created>1374761383357</created>
       <updated>1374761383357</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="azure error handling fix #2">
+      <created>1374763182479</created>
+      <updated>1374763182479</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -436,7 +440,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="azure error handling fix #1" />
+    <option name="LAST_COMMIT_MESSAGE" value="azure error handling fix #2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -472,6 +476,7 @@
     <MESSAGE value="user registration form and simple func&#10;simple admin part" />
     <MESSAGE value="add notifications" />
     <MESSAGE value="azure error handling fix #1" />
+    <MESSAGE value="azure error handling fix #2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -580,7 +585,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="53" selection-start="131" selection-end="131" vertical-scroll-proportion="0.096045196">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
