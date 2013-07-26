@@ -10,8 +10,10 @@
     "express": "*",
     "jade": "*",
     "monk": "*",
-    "azure": "*",
-    "mocha": "*",
-    "should": "*"
+    "azure": "*"
+  },
+  "devDependencies": {
+      "mocha": "*",
+      "should": "*"
   }
 }
