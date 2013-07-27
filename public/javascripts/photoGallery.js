@@ -21,7 +21,7 @@ function photoDetailsCtrl($scope, $routeParams, $location, Photo, AppConfigurati
     $scope.config = AppConfiguration.current();
 
     $scope.delete = function(){
-        if (confirm("Are you sure to delete this photo?")) {
+        if (confirm("Вы уверены что хотите удалить это фото?")) {
             Photo.delete($routeParams.photoId);
             $location.path('/');
         }
@@ -32,8 +32,21 @@ function galleryCtrl($scope, Photo){
 	$scope.photos = Photo.list();
 }
 
-function userLoginCtrl($scope){
+function userLoginCtrl($scope, $location, User, Notify){
+    $scope.user = {};
 
+    $scope.login = function(){
+        User.login($scope.user, function(data){
+            if (data.user == null){
+                Notify.warning('Пароль или E-mail не верный');
+            } else {
+                Notify.success('Вы успешно вошли.');
+                $location.path('/');
+            }
+        }, function(err){
+            Notify.error(err.data);
+        });
+    }
 }
 
 function userRegisterCtrl($scope, $location, User, Notify){
@@ -51,6 +64,14 @@ function userRegisterCtrl($scope, $location, User, Notify){
 
 function adminUsersCtrl($scope, User){
     $scope.users = User.query();
+
+    $scope.delete = function(userId, index){
+        if(confirm("Вы уверены?")){
+            User.delete({userId: userId}, function(){
+                $scope.users.splice(index, 1);
+            });
+        }
+    }
 }
 
 

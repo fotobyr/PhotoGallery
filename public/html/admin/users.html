@@ -4,6 +4,8 @@
             <th>id</th>
             <th>login</th>
             <th>email</th>
+            <th>password</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -11,6 +13,8 @@
             <td>{{ user._id }}</td>
             <td>{{ user.login }}</td>
             <td>{{ user.email }}</td>
+            <td>{{ user.password }}</td>
+            <td><button type="button" class="btn btn-link" ng-click="delete(user._id, $index)">Удалить</button></td>
         </tr>
     </tbody>
 </table>

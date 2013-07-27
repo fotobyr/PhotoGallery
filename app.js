@@ -29,6 +29,8 @@ app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.cookieParser());
+app.use(express.session({secret: 'simple secret phrase'}));
 
 // development only
 if ('development' == app.get('env')) {
@@ -39,10 +41,10 @@ var configuration = require('./routes/configuration');
 app.get('/configuration', configuration.get);
 
 var user = require('./routes/user');
-/*app.get('/users', user.list);
- app.get('/users/:userId', user.details); */
 app.get('/user', user.list);
 app.post('/user', user.create);
+app.del('/user/:userId', user.delete);
+app.post('/user/login', user.login);
 
 require('./routes/photo')(app);
 

@@ -26,6 +26,11 @@ exports.list = function(req, res){
 exports.create = function(req, res){
     var newUser = req.body;
 
+    if (!newUser.password || newUser.password == ''){
+        res.send(500, 'Пароль не может быть пустым');
+        return;
+    }
+
     if(newUser.password != newUser.repeatPassword){
         res.send(500, 'Пароли не совпадают');
         return;
@@ -36,5 +41,25 @@ exports.create = function(req, res){
     users.insert(newUser, function(error, doc){
         if (error) throw error;
         res.send('saved with id ' + doc._id);
+    });
+}
+
+exports.login = function(req, res){
+    var users = monk(req.app.settings.mongoDB).get('users');
+
+    users.findOne({password: req.body.password, email: req.body.email})
+        .on('success', function(doc){
+            res.json({user: doc});
+        })
+        .on('error', function(err){
+            res.send(500, 'fail');
+        });
+}
+
+exports.delete = function(req, res){
+    var users = monk(req.app.settings.mongoDB).get('users');
+
+    users.remove({_id: req.params.userId}, function(){
+        res.json({userId: req.params.userId});
     });
 }

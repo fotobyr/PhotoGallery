@@ -5,19 +5,19 @@
         <div class="control-group">
             <label class="control-label">E-Mail</label>
             <div class="controls">
-                <input type="email" />
+                <input type="email" ng-model="user.email" />
             </div>
         </div>
 
         <div class="control-group">
             <label class="control-label">Пароль</label>
             <div class="controls">
-                <input type="password" />
+                <input type="password" ng-model="user.password" />
             </div>
         </div>
 
         <div class="form-actions">
-            <button type="submit" value="Upload" class="btn btn-primary">Войти</button>
+            <button type="submit" value="Upload" class="btn btn-primary" ng-click="login()">Войти</button>
         </div>
 
     </fieldset>
