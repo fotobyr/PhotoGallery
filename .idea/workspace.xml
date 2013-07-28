@@ -7,9 +7,9 @@
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375008559557" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375008761254" ignored="false" />
     <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374918171088" ignored="false" />
-    <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375008426854" ignored="false" />
+    <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375008817840" ignored="false" />
     <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998608906" ignored="false" />
     <file path="/photoGallery.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998419926" ignored="false" />
     <file path="/details.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998715349" ignored="false" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="photo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/photo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="48" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.6223507">
+            <state line="74" column="56" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.7206166">
               <folding />
             </state>
           </provider>
@@ -560,7 +560,11 @@
       <created>1375008562660</created>
       <updated>1375008562660</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="fix util path">
+      <created>1375008766512</created>
+      <updated>1375008766512</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -628,7 +632,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add convert utility" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix util path" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -642,7 +646,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="specify latest available nodejs version on azure" />
     <MESSAGE value="try to use OS temp directory for uploading" />
     <MESSAGE value="real uploading to the azure blob storage" />
     <MESSAGE value="move styles. initial commit." />
@@ -667,6 +670,7 @@
     <MESSAGE value="migrate too twitter bootstrap 3-rc1&#10;some fixes, configuration" />
     <MESSAGE value="convert image to preview" />
     <MESSAGE value="add convert utility" />
+    <MESSAGE value="fix util path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -765,7 +769,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/photo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="48" selection-start="2601" selection-end="2601" vertical-scroll-proportion="0.6223507">
+        <state line="74" column="56" selection-start="2820" selection-end="2820" vertical-scroll-proportion="0.7206166">
           <folding />
         </state>
       </provider>
