@@ -71,8 +71,8 @@ module.exports = function(app){
 
         promise.success(function(doc){
             var smallImage = path.normalize(os.tmpDir()) + path.sep + doc._id + '-small' + fileExt;
-            im.convert.path = __dirname + '/bin/convert.exe';
-            console.log(__dirname + '/bin/convert.exe');
+            im.convert.path = path.join(__dirname, '..', 'bin') + path.sep + 'convert.exe';
+            console.log(im.convert.path);
             im.crop({
                 srcPath: req.files.imageFile.path,
                 dstPath: smallImage,
