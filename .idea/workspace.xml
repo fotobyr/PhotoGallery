@@ -7,7 +7,7 @@
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375018165190" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375018328859" ignored="false" />
     <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374918171088" ignored="false" />
     <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375008934639" ignored="false" />
     <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998608906" ignored="false" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="photo.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/photo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="107" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.7206166">
+            <state line="73" column="12" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.68786126">
               <folding />
             </state>
           </provider>
@@ -580,7 +580,11 @@
       <created>1375018171584</created>
       <updated>1375018171584</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="fix path 2">
+      <created>1375018334569</created>
+      <updated>1375018334569</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -648,7 +652,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix path" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix path 2" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -662,7 +666,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="add caching for list operation" />
     <MESSAGE value="upload page design" />
     <MESSAGE value="file upload func" />
     <MESSAGE value="simple display photos" />
@@ -687,6 +690,7 @@
     <MESSAGE value="fix 3&#10;" />
     <MESSAGE value="fix 4" />
     <MESSAGE value="fix path" />
+    <MESSAGE value="fix path 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -785,7 +789,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/photo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="107" selection-start="2903" selection-end="2903" vertical-scroll-proportion="0.7206166">
+        <state line="73" column="12" selection-start="2714" selection-end="2714" vertical-scroll-proportion="0.68786126">
           <folding />
         </state>
       </provider>
