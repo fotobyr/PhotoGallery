@@ -2,22 +2,19 @@
     <fieldset>
         <legend>Войти</legend>
 
-        <div class="control-group">
-            <label class="control-label">E-Mail</label>
-            <div class="controls">
-                <input type="email" ng-model="user.email" />
+        <div class="form-group">
+            <label for="email" class="col-lg-2 control-label">E-Mail</label>
+            <div class="col-lg-3">
+                <input type="email" class="form-control" ng-model="user.email" />
             </div>
         </div>
 
-        <div class="control-group">
-            <label class="control-label">Пароль</label>
-            <div class="controls">
-                <input type="password" ng-model="user.password" />
+        <div class="form-group">
+            <label for="password" class="col-lg-2 control-label">Пароль</label>
+            <div class="col-lg-3">
+                <input type="password" class="form-control" ng-model="user.password" />
+                <button type="submit" value="Upload" class="btn btn-primary" style="margin-top: 10px;" ng-click="login()">Войти</button>
             </div>
-        </div>
-
-        <div class="form-actions">
-            <button type="submit" value="Upload" class="btn btn-primary" ng-click="login()">Войти</button>
         </div>
 
     </fieldset>

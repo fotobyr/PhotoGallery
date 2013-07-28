@@ -8,7 +8,9 @@
 
 exports.get = function(req, res){
     res.json({
-        isAdmin: true,
-        isGuest: true
+        isAdmin: req.session.username == 'gengzu@gmail.com',
+        isGuest: typeof req.session.userId !== 'undefined',
+        userName: req.session.username,
+        userId: req.session.userId
     });
 }

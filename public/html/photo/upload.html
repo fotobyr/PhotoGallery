@@ -3,22 +3,21 @@
     <fieldset>
         <legend>Загрузить фото</legend>
 
-        <div class="control-group">
-            <label class="control-label" for="fileName">Название фото</label>
-            <div class="controls">
-                <input type="text" name="fileName" id="fileName" />
+        <div class="form-group">
+            <label for="fileName" class="col-lg-2 control-label">Название фото</label>
+            <div class="col-lg-3">
+                <input type="text" name="fileName" id="fileName" class="form-control" />
             </div>
         </div>
 
-        <div class="control-group">
-            <label class="control-label" for="imageFile">Файл</label>
-            <div class="controls">
-                <input type="file" id="imageFile" name="imageFile" class="input-file" onchange="SetImageTitle();" />
+        <div class="form-group">
+            <label for="imageFile" class="col-lg-2 control-label">Файл</label>
+            <div class="col-lg-3">
+                <input type="file" id="imageFile" name="imageFile" onchange="SetImageTitle();" />
+                <div style="margin-top: 10px;">
+                    <button type="submit" value="Upload" class="btn btn-primary">Сохранить</button>&nbsp;<a href='#' class='btn'>Отмена</a>
+                </div>
             </div>
-        </div>
-
-        <div class="form-actions">
-            <button type="submit" value="Upload" class="btn btn-primary">Сохранить</button>&nbsp;<a href='#' class='btn'>Отмена</a>
         </div>
 
     </fieldset>

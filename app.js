@@ -27,10 +27,10 @@ app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
-app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.cookieParser());
-app.use(express.session({secret: 'simple secret phrase'}));
+app.use(express.cookieSession({secret: 'simple secret phrase'}));
+app.use(app.router);
 
 // development only
 if ('development' == app.get('env')) {

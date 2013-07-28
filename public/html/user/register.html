@@ -2,36 +2,33 @@
     <fieldset>
         <legend>Регистрация</legend>
 
-        <div class="control-group">
-            <label class="control-label">Логин</label>
-            <div class="controls">
-                <input type="text" ng-model='newUser.login' />
+        <div class="form-group">
+            <label for="login" class="col-lg-2 control-label">Логин</label>
+            <div class="col-lg-3">
+                <input type="text" class="form-control" ng-model='newUser.login' />
             </div>
         </div>
 
-        <div class="control-group">
-            <label class="control-label">E-Mail</label>
-            <div class="controls">
-                <input type="email" ng-model="newUser.email" />
+        <div class="form-group">
+            <label for="email" class="col-lg-2 control-label">E-Mail</label>
+            <div class="col-lg-3">
+                <input type="email" class="form-control" ng-model="newUser.email" />
             </div>
         </div>
 
-        <div class="control-group">
-            <label class="control-label">Пароль</label>
-            <div class="controls">
-                <input type="password" ng-model="newUser.password" />
+        <div class="form-group">
+            <label for="password" class="col-lg-2 control-label">Пароль</label>
+            <div class="col-lg-3">
+                <input type="password" class="form-control" ng-model="newUser.password" />
             </div>
         </div>
 
-        <div class="control-group">
-            <label class="control-label">Еще раз пароль</label>
-            <div class="controls">
-                <input type="password" ng-model="newUser.repeatPassword" />
+        <div class="form-group">
+            <label for="repeatPassword" class="col-lg-2 control-label">Еще раз пароль</label>
+            <div class="col-lg-3">
+                <input type="password" class="form-control" ng-model="newUser.repeatPassword" />
+                <button type="submit" value="Upload" class="btn btn-primary" style="margin-top: 10px;" ng-click="register()">Зарегистрироваться</button>
             </div>
-        </div>
-
-        <div class="form-actions">
-            <button type="submit" value="Upload" class="btn btn-primary" ng-click="register()">Зарегистрироваться</button>
         </div>
 
     </fieldset>

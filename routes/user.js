@@ -49,6 +49,12 @@ exports.login = function(req, res){
 
     users.findOne({password: req.body.password, email: req.body.email})
         .on('success', function(doc){
+            if (doc != null) {
+                req.session.authorized = true;
+                req.session.username = doc.email;
+                req.session.userId = doc._id;
+            }
+
             res.json({user: doc});
         })
         .on('error', function(err){

@@ -2,35 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\gengzu\nodejs\PhotoGallery\public\javascripts\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gengzu\nodejs\PhotoGallery\public\stylesheets\bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\gengzu\nodejs\PhotoGallery\public\stylesheets\bootstrap.min.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/configuration.js" afterPath="$PROJECT_DIR$/routes/configuration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/photo/details.html" afterPath="$PROJECT_DIR$/public/html/photo/details.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/user/login.html" afterPath="$PROJECT_DIR$/public/html/user/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/photoGallery.js" afterPath="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" afterPath="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/photos.html" afterPath="$PROJECT_DIR$/public/html/photos.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/user/register.html" afterPath="$PROJECT_DIR$/public/html/user/register.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/photo/upload.html" afterPath="$PROJECT_DIR$/public/html/photo/upload.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/user.js" afterPath="$PROJECT_DIR$/routes/user.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/admin/users.html" afterPath="$PROJECT_DIR$/public/html/admin/users.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374862168521" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374920409936" ignored="false" />
     <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374918171088" ignored="false" />
     <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374591754788" ignored="false" />
-    <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374911295875" ignored="false" />
-    <file path="/photoGallery.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374919531419" ignored="false" />
-    <file path="/details.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374590481675" ignored="false" />
-    <file path="/photos.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374580952785" ignored="false" />
-    <file path="/upload.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1372942014165" ignored="false" />
-    <file path="/layout.jade" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374912085991" ignored="false" />
-    <file path="/user.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374920290138" ignored="false" />
+    <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998608906" ignored="false" />
+    <file path="/photoGallery.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998419926" ignored="false" />
+    <file path="/details.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998715349" ignored="false" />
+    <file path="/photos.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374995989011" ignored="false" />
+    <file path="/upload.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374997311550" ignored="false" />
+    <file path="/layout.jade" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374995402913" ignored="false" />
+    <file path="/user.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374921704301" ignored="false" />
     <file path="/a.dummy" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374580645922" ignored="false" />
-    <file path="/configuration.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374590226818" ignored="false" />
+    <file path="/configuration.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374922531189" ignored="false" />
     <file path="/style.css" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374590886581" ignored="false" />
     <file path="/admin.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374757281070" ignored="false" />
-    <file path="/login.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374919978854" ignored="false" />
+    <file path="/login.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374997049113" ignored="false" />
     <file path="/registration.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374753784717" ignored="false" />
-    <file path="/register.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374754368205" ignored="false" />
+    <file path="/register.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374996829776" ignored="false" />
     <file path="/users.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374920054592" ignored="false" />
     <file path="/web.config" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374764691694" ignored="false" />
     <file path="/package.json" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374845888317" ignored="false" />
@@ -55,20 +61,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/user.js">
+      <file leaf-file-name="configuration.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/configuration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="63" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.7763158">
+            <state line="10" column="58" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photoGallery.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
+      <file leaf-file-name="photoGalleryService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="58" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0">
+            <state line="72" column="39" selection-start="2183" selection-end="2183" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photos.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/photos.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="84" selection-start="157" selection-end="157" vertical-scroll-proportion="-1.3076923">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/user/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="102" selection-start="1222" selection-end="1247" vertical-scroll-proportion="-14.884615">
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#3;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,16 +113,38 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/html/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="50" selection-start="478" selection-end="478" vertical-scroll-proportion="-9.153846">
+            <state line="15" column="102" selection-start="653" selection-end="678" vertical-scroll-proportion="-9.807693">
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/photo/upload.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="46" selection-start="725" selection-end="725" vertical-scroll-proportion="-10.461538">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="photoGallery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="39" selection-start="2828" selection-end="2828" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/admin/users.html">
+      <file leaf-file-name="details.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="414" selection-end="414" vertical-scroll-proportion="-9.807693">
+            <state line="8" column="24" selection-start="428" selection-end="428" vertical-scroll-proportion="0.27586207">
               <folding />
             </state>
           </provider>
@@ -109,22 +168,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/public/html/user/registration.html" />
-        <option value="$PROJECT_DIR$/public/html/admin/admin.html" />
-        <option value="$PROJECT_DIR$/web.config" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/library/userService.js" />
         <option value="$PROJECT_DIR$/test/test.js" />
         <option value="$PROJECT_DIR$/test/userService.test.js" />
         <option value="$PROJECT_DIR$/lib/userService.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
-        <option value="$PROJECT_DIR$/public/html/user/register.html" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/public/html/user/login.html" />
         <option value="$PROJECT_DIR$/public/html/admin/users.html" />
-        <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
+        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/user.js" />
+        <option value="$PROJECT_DIR$/routes/configuration.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/public/html/photos.html" />
+        <option value="$PROJECT_DIR$/public/html/user/register.html" />
+        <option value="$PROJECT_DIR$/public/html/user/login.html" />
+        <option value="$PROJECT_DIR$/public/html/photo/upload.html" />
+        <option value="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
+        <option value="$PROJECT_DIR$/public/html/photo/details.html" />
       </list>
     </option>
   </component>
@@ -233,6 +292,10 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -249,6 +312,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoGallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PhotoGallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -526,18 +603,22 @@
       <created>1374862181644</created>
       <updated>1374862181644</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="admin - user deletion&#10;simple user login. prepare to real login.&#10;migrate to unstable angular (new url feature in $resource)">
+      <created>1374920417243</created>
+      <updated>1374920417243</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984147" sideWeight="0.7771588" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984147" sideWeight="0.7771588" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -594,7 +675,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple test" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin - user deletion&#10;simple user login. prepare to real login.&#10;migrate to unstable angular (new url feature in $resource)" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -608,7 +689,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="change upload folder to local from temp" />
     <MESSAGE value="add IISNode configuration" />
     <MESSAGE value="try to change express version" />
     <MESSAGE value="specify nodejs version" />
@@ -633,28 +713,12 @@
     <MESSAGE value="error handling #4" />
     <MESSAGE value="login page" />
     <MESSAGE value="simple test" />
+    <MESSAGE value="admin - user deletion&#10;simple user login. prepare to real login.&#10;migrate to unstable angular (new url feature in $resource)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/html/admin/admin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="30" selection-start="44" selection-end="44" vertical-scroll-proportion="0.06706114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IISNode.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="53" selection-start="747" selection-end="747" vertical-scroll-proportion="0.46541786">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/userService.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="68" selection-start="572" selection-end="572" vertical-scroll-proportion="0.46676302">
@@ -676,41 +740,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="47" selection-start="1528" selection-end="1528" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/html/user/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="49" selection-start="950" selection-end="950" vertical-scroll-proportion="0.6422925">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="57" selection-start="42" selection-end="42" vertical-scroll-proportion="0.06390978">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="38" selection-start="1517" selection-end="1517" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/photo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="30" selection-start="192" selection-end="192" vertical-scroll-proportion="0.098265894">
@@ -718,30 +747,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/html/user/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="50" selection-start="478" selection-end="478" vertical-scroll-proportion="-9.153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/html/admin/users.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="414" selection-end="414" vertical-scroll-proportion="-9.807693">
+        <state line="15" column="35" selection-start="414" selection-end="414" vertical-scroll-proportion="0.50395256">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
+    <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="58" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0">
+        <state line="33" column="40" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="63" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.7763158">
+        <state line="50" column="37" selection-start="1228" selection-end="1228" vertical-scroll-proportion="0.6165413">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/configuration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="58" selection-start="266" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="84" selection-start="157" selection-end="157" vertical-scroll-proportion="-1.3076923">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="102" selection-start="1222" selection-end="1247" vertical-scroll-proportion="-14.884615">
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#3;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/photo/upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="46" selection-start="725" selection-end="725" vertical-scroll-proportion="-10.461538">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="39" selection-start="2183" selection-end="2183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="39" selection-start="2828" selection-end="2828" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/user/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="102" selection-start="653" selection-end="678" vertical-scroll-proportion="-9.807693">
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#div#1;n#fieldset#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="428" selection-end="428" vertical-scroll-proportion="0.27586207">
           <folding />
         </state>
       </provider>

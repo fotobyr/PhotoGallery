@@ -1,9 +1,9 @@
 <h1>{{ photo.title || photo.name || photo.fileOriginalName }}<delete-image></delete-image></h1>
 <div class="row show-grid">
-    <div class="span8">
+    <div class="col-lg-8">
         <img src="{{ photo.url }}" alt="{{ photo.title || photo.name || photo.fileOriginalName }}" title="{{ photo.title || photo.name || photo.fileOriginalName }}" />
     </div>
-    <div class="span4">
+    <div class="col-lg-4">
         <div class="well">
             <h3>О фото</h3>
             <dl>

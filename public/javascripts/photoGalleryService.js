@@ -64,22 +64,22 @@ angular.module('photoGalleryService', ['ngResource'])
                 toastr.error(msg, title);
             }
         }
-}).factory('AppConfiguration', function($resource, $cacheFactory){
+}).factory('AppConfiguration', function($resource){
         var config = $resource('/configuration', {}, {
             get: {method: 'GET'}
         });
 
-        var configCache = $cacheFactory('appConfiguration');
+        var cfg = null;
 
         return {
             current: function(){
-                var cachedConfiguration = configCache.get('appConfiguration');
-
-                if (cachedConfiguration == undefined) {
-                    cachedConfiguration = config.get();
-                    configCache.put('appConfiguration', cachedConfiguration);
+                if (cfg == null) {
+                    cfg = config.get();
                 }
-                return cachedConfiguration;
+                return cfg;
+            },
+            reset: function(){
+                cfg = null;
             }
         }
     });

@@ -32,7 +32,7 @@ function galleryCtrl($scope, Photo){
 	$scope.photos = Photo.list();
 }
 
-function userLoginCtrl($scope, $location, User, Notify){
+function userLoginCtrl($scope, $location, User, Notify, AppConfiguration){
     $scope.user = {};
 
     $scope.login = function(){
@@ -41,6 +41,7 @@ function userLoginCtrl($scope, $location, User, Notify){
                 Notify.warning('Пароль или E-mail не верный');
             } else {
                 Notify.success('Вы успешно вошли.');
+                AppConfiguration.reset();
                 $location.path('/');
             }
         }, function(err){
