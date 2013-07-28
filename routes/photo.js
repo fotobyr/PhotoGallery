@@ -11,6 +11,9 @@ module.exports = function(app){
     var azure = require('azure');
     var db = require('monk')(app.get('mongoDB'));
     var photos = db.get('photos');
+    var im = require('imagemagick');
+    var path = require('path');
+    var os = require('os');
 
     app.get('/photo/:photoId', function(req, res){
         photos.findById(req.params.photoId, function(err, doc){
@@ -21,7 +24,8 @@ module.exports = function(app){
     app.get('/photo', function(req, res){
         photos.find({}, function(err, docs){
             docs.forEach(function(photo){
-                photo.url = getPhotoUrl(photo, req);
+                photo.url = getPhotoUrl(photo, req, req.app.settings.blobPhotoName);
+                photo.preview = getPhotoUrl(photo, req, req.app.settings.blobThumbnailsName);
             })
             res.json(docs);
         });
@@ -33,14 +37,19 @@ module.exports = function(app){
     });
 
     var preparePhoto = function(photo, req){
-        photo.url = getPhotoUrl(photo,req);
+        photo.url = getPhotoUrl(photo,req, req.app.settings.blobPhotoName);
+        photo.preview = getPhotoUrl(photo,req, req.app.settings.blobThumbnailsName);
         return photo;
     }
 
-    var getPhotoUrl = function(photo, req){
+    var getPhotoUrl = function(photo, req, blobName){
         return req.app.settings.blobAccountName == 'devstoreaccount1'
-            ? 'http://' + req.app.settings.blobStorageUrl + '/' + req.app.settings.blobAccountName + '/' + req.app.settings.blobPhotoName  + '/' + photo._id + '.' + photo.fileExt
-            : 'http://' + req.app.settings.blobStorageUrl + '/' + req.app.settings.blobPhotoName + '/' + photo._id + '.' + photo.fileExt;
+            ? 'http://' + req.app.settings.blobStorageUrl + '/' + req.app.settings.blobAccountName + '/' + blobName  + '/' + photo._id + '.' + normalizeExt(photo.fileExt)
+            : 'http://' + req.app.settings.blobStorageUrl + '/' + blobName + '/' + photo._id + '.' + normalizeExt(photo.fileExt);
+    }
+
+    var normalizeExt = function(ext){
+        return ext.replace('.', '');
     }
 
     app.post('/photo/upload', function(req, res){
@@ -50,14 +59,8 @@ module.exports = function(app){
         var host = req.app.settings.blobStorageUrl;
         var blobService = azure.createBlobService(accountName, accountKey, host).withFilter(new azure.ExponentialRetryPolicyFilter());
 
-        blobService.createContainerIfNotExists(req.app.settings.blobPhotoName,
-            {publicAccessLevel : 'blob'},
-            function(error){
-            console.log(error);
-        });
-
         var fileName = req.files.imageFile.name;
-        var fileExt = fileName.split('.')[fileName.split('.').length - 1];
+        var fileExt = path.extname(fileName);
 
         var promise = photos.insert({
             title: req.param('fileName', req.files.imageFile.name),
@@ -67,19 +70,46 @@ module.exports = function(app){
         });
 
         promise.success(function(doc){
-            blobService.createBlockBlobFromFile(req.app.settings.blobPhotoName
-                , doc._id + '.' + fileExt
-                , req.files.imageFile.path
-                , function(error){
-                    if(!error){
-                        console.log('uploaded');
-                    } else {
-                        console.log(error);
-                    }
+            var smallImage = path.normalize(os.tmpDir()) + path.sep + doc._id + '-small' + fileExt;
+            im.convert.path = 'bin\\convert.exe';
+            im.crop({
+                srcPath: req.files.imageFile.path,
+                dstPath: smallImage,
+                width: 177,
+                height: 180,
+                strip: true
+            }, function(err, stdout, stderr){
+                if (err) throw err;
+                    var azureFileName = doc._id + fileExt;
 
-                    res.redirect('/');
-                });
+                    uploadToAzure(blobService, req.app.settings.blobPhotoName, azureFileName, req.files.imageFile.path, function(){
+                        uploadToAzure(blobService, req.app.settings.blobThumbnailsName, azureFileName, smallImage, function(){
+                            console.log('uploaded');
+                            res.redirect('/');
+                        })
+                    });
+            });
         });
     });
+
+    var uploadToAzure = function(blobService, blobName, fileName, filePath, callback){
+
+        blobService.createContainerIfNotExists(blobName,
+            {publicAccessLevel : 'blob'},
+            function(error){
+                if (error) throw error;
+
+                blobService.createBlockBlobFromFile(blobName
+                    , fileName
+                    , filePath
+                    , function(error){
+                        if(!error){
+                            callback();
+                        } else {
+                            throw error;
+                        }
+                    });
+            });
+    }
 }
 

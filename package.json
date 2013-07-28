@@ -10,7 +10,8 @@
     "express": "*",
     "jade": "*",
     "monk": "*",
-    "azure": "*"
+    "azure": "*",
+    "imagemagick": "*"
   },
   "devDependencies": {
       "mocha": "*",

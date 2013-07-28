@@ -1,7 +1,7 @@
 <div class="row">
     <div ng-repeat="photo in photos" class="col-lg-2">
         <a href="#/photo/{{ photo._id }}" class="thumbnail" style="margin-bottom: 10px;">
-            <img ng-src="{{ photo.url }}" style="width: 177px; height: 180px;" alt="{{ photo.title || photo.name || photo.fileOriginalName }}" title="{{ photo.title || photo.name || photo.fileOriginalName }}" />
+            <img ng-src="{{ photo.preview }}" alt="{{ photo.title || photo.name || photo.fileOriginalName }}" title="{{ photo.title || photo.name || photo.fileOriginalName }}" />
         </a>
     </div>
 </div>
