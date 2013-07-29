@@ -2,1081 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Cache.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Drawable_example_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/IMDisplay.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/ImageMagick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/ImageMagick.rdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Magick++.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/X11.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/Xext.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/affine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/animate.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/annotate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/arc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/atl100.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/atop.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/black.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/bluebells_clipped.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/bluebells_darker.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/bluebells_lin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/bluebells_log.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/bricks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/business+directory.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/button.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/button_kmvu.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/checkerboard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/circles.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/compare.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/composite.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/configure.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/conjure.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/convert.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/crosshatch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/crosshatch30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/crosshatch45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/cylinder_shaded.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/dcraw.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/definitive-guide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/difference.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/display.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/dogwaffle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/donate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/doxygen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/doxygen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/emfplus.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/examples.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/ffmpeg.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/fishscales.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/frame.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2blank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2doc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2folderclosed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2folderclosed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2folderopen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2folderopen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2lastnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2lastnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2link.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2mlastnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2mlastnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2mnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2mnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2node.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2node.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2plastnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2plastnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2pnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2pnode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ftv2vertline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/ftv2vertline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/fuzzy-magick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/gaussian-blur.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/granite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray0.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray10.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray100.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray15.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray20.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray25.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray35.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray55.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray65.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray70.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray75.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray80.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray85.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray90.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/gray95.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/hexagons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/horizontal2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/horizontal3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/horizontalsaw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/hp2xx.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/hs_bdiagonal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/hs_cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/hs_diagcross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/hs_fdiagonal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/hs_horizontal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/hs_vertical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/identify.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/imade_art2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/import.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/ivedc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/label.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/left30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/left45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/leftshingle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/logo-sm-flop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/logo-sm-fx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/logo-sm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/logo.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/mfc100.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/mogrify.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/montage-sample-framed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/montage.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/montage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/msvcp100.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/msvcr100.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/navy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/networkredux.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/octagons.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/over.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/piechart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/project-support.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/radial-gradient.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/reconstruct.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/red-ball.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/red-circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/right.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/right30.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/right45.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/right_triangle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/rightshingle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/rose-over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/rose-sigmoidal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/rose.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/rose.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/rose.pnm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/script.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/smallfishscales.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/smile.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/sponsor.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/sprite.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/stream.exe" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/t-shirt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/tab_b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/tab_b.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/tab_l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/tab_l.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/tab_r.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/tab_r.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/thumbnail-anatomy-framed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/thumbnail-anatomy-plain.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/thumbnail-sample-framed.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/thumbnail-sample-plain.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/travelsur.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/tricks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/vcomp100.dll" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/vertical.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/vertical2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/vertical3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/verticalbricks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/verticalleftshingle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/verticalrightshingle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/patterns/verticalsaw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/wand.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/wand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/wand.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/white-highlight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/wizard.ai" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/wizard.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/wizard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Blob.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/COPYING" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Cache.fig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Cache.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/ChangeLog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/ChangeLog" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/CoderInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Color.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Documentation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Drawable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Enumerations.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Exception.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/FormatCharacters.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Future.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Geometry.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Image.fig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/ImageDesign.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/ImageMagickObject.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ImageMagick_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/ImageMagick_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Install.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/License.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/MagickCore_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/MagickCore_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/MagickWand_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/MagickWand_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Montage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/NEWS.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/NEWS.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/NOTICE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/Notice-1.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/Notice.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/PixelPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/Pixels.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/PreRvIcccm_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/PreRvIcccm_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/PreRvIcccm_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/QuickStart.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/STL.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/TypeMetric.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/advanced-unix-installation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/advanced-windows-installation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/analyze.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/animate-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/animate-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/animate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/animate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/animate_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/animate_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/animate_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/animate_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/animate_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/animate_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/annotate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/annotate_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/annotate_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/annotate_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/annotated.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/annotated.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/api_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/api_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/architecture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/artifact_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/artifact_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/artifact_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/attribute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/binary-releases.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/blob-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/blob-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/blob.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/blob_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/blob_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/blob_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/cache-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/cache-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/cache-view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/cache-view_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/cache-view_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/cache-view_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/cache.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/cache_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/cache_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/cache_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/changelog.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/channel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/channel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/cipher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/cipher.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/classes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/classes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/client_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/client_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/client_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/coder.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/coder.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/coder_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/coder_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/coder_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/contrib/color-converter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/color-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/color-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/contrib/color-swatch.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/color.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/color.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/color_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/color_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/color_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/colormap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/colors.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/colorspace-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/colorspace-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/colorspace.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/colorspace_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/colorspace_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/colorspace_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/command-line-options.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/command-line-processing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/command-line-tools.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/compare.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/compare.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/compare_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/compare_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/compare_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/compare_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/compare_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/compare_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/compose.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/composite-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/composite-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/composite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/composite.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/composite_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/composite_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/composite_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/composite_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/composite_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/composite_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/compress_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/compress_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/compress_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/configure.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/configure.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/configure_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/configure_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/configure_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/conjure.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/conjure_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/conjure_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/conjure_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/constitute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/constitute_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/constitute_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/constitute_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/contrast.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/convert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/convert_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/convert_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/convert_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/decorate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/decorate_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/decorate_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/decorate_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/delegate_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/delegate_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/delegate_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/delegates.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/delegates.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/deprecate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/deprecate_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/deprecate_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/deprecate_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/deprecate_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/deprecate_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/deprecate_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/dir_101f7ac0a894e32543a314e85b2e1524.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/dir_b44b349db36f8365f5234e57d3038770.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/dirs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/dirs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/display-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/display-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/display.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/display.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/display_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/display_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/display_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/display_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/display_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/display_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/distort.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/distort_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/distort_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/distort_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/download.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/doxygen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/doxygen.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/draw-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/draw-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/draw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/draw_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/draw_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/draw_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/drawing-wand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/drawing-wand_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/drawing-wand_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/drawing-wand_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/drawtest_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/effect.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/effect_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/effect_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/effect_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/english.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/english.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/enhance.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/enhance_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/enhance_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/enhance_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/escape.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/examples.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/examples.pl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/exception-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/exception-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/exception.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/exception.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/exception_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/exception_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/exception_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/export.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/feature.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/files.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/files.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/formats.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/fourier.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/francais.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/functions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x61.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x62.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x63.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x65.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x66.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x67.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x68.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x69.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x6b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x6c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x6d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x6e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x6f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x70.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x71.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x74.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x75.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x76.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x77.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x78.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x79.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_0x7a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_func.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/functions_vars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x61.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x62.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x63.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x65.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x66.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x67.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x68.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x69.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x6b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x6c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x6d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x6e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x6f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x70.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x71.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x74.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x75.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x76.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x77.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x78.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x79.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/functions_vars_0x7a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/fx-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/fx-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/fx.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/fx.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/fx_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/fx_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/fx_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/gem_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/gem_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/gem_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/geometry_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/geometry_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/geometry_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x61.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x61.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x62.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x62.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x63.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x63.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x65.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x65.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x66.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x67.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x67.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x68.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x69.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x69.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x6a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x6b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x6c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x6d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x6d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x6e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x6e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x6f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x6f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x70.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x70.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x71.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x71.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x74.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x74.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x75.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x75.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x76.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x77.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x77.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x78.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_0x78.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x79.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_0x7a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_defs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x61.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x62.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x63.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x65.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x66.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x67.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x68.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x69.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x6b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x6c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x6d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x6e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x6f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x70.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x71.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x74.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x75.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x76.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x77.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x78.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_defs_0x79.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_enum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_enum.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_eval.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x62.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x63.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x65.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x66.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x67.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x68.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x69.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x6a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x6b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x6c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x6d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x6e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x6f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x70.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x71.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x74.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x75.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x76.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x77.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x78.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x79.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_eval_0x7a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x62.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x63.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x63.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x65.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x66.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x67.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x67.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x68.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x69.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x69.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x6a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x6b.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x6c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x6d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x6d.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x6e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x6e.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x6f.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x70.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x70.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x71.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x72.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_func_0x73.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x74.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x75.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x76.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x77.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x78.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x79.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_func_0x7a.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_type.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/globals_vars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/globals_vars.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/hashmap_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/hashmap_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/hashmap_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/high-dynamic-range.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/histogram.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/histogram.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/history.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/identify.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/identify_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/identify_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/identify_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/identify_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/identify_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/identify_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/image-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/image-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/image-view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/image_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/image_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/image_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/import.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/import_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/import_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/import_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/incantation.msl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/install-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/jp2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/layer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/layer_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/layer_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/layer_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/license.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/links.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/list_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/list_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/list_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/locale.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/locale.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/locale_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/locale___8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/locale___8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/log.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/log.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/log_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/log_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/log_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/images/logo.eps" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/mac_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/mac_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/mac_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/magic.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/magic.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magic_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magic_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magic_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/magick++.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magick-config_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magick-config_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/magick-core.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/magick-deprecate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/magick-image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-image_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-image_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-image_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/magick-property.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-property_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-property_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-property_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magick-type_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magick-type_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/magick-vector-graphics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-wand-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-wand-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/magick-wand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/magick-wand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-wand_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-wand_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick-wand_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/magick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/magick.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/magick.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magick_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magick_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/magick_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick__wand_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/magick__wand_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/mailing-list.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/matrix_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/matrix_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/matrix_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/memory.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/memory_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/memory___8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/memory___8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/methods_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/methods_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/mgk.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/miff.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/mime-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/mime-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/mime.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/mime_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/mime_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/mime_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/mirrors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/module.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/module_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/module_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/module_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/mogrify-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/mogrify-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/mogrify.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/mogrify.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/mogrify_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/mogrify_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/mogrify_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/monitor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/monitor_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/monitor_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/monitor_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/montage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/montage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/montage_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/montage_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/montage_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/montage_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/montage_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/montage_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/morphology.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/motion-picture.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/nt-base_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/nt-base_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/nt-base_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/nt-feature_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/nt-feature_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/nt-feature_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/option_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/option_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/option_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/paint.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/paint_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/paint_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/paint_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/parallel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/perl-magick.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/piechart.mvg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/piechart.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/pixel-iterator.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/pixel-iterator_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/pixel-iterator_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/pixel-iterator_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/pixel-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/pixel-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/pixel-view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/pixel-wand-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/pixel-wand-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/pixel-wand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/pixel-wand_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/pixel-wand_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/pixel-wand_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/pixel_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/pixel_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/pixel_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/policy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/policy.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/porting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/prepress_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/prepress_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/prepress_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/profile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/profile_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/profile_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/profile_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/property.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/property_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/property_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/property_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/quantization-table.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/quantize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/quantize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/quantize_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/quantize_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/quantize_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/quantum-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/quantum-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/quantum_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/quantum_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/quantum_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/random_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/random___8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/random___8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/registry.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/registry_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/registry_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/registry_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resample_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resample_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resample_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resize-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resize-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/resize.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resize_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resize_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resize_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/resource.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resource_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resource___8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/resource___8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/resources.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/search.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/segment.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/segment_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/segment_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/segment_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/semaphore_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/semaphore_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/semaphore_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/shear.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/shear_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/shear_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/shear_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/sigmoidal-contrast.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/core/sigmoidal-contrast.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/wand/sigmoidal-contrast.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/signature.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/signature_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/signature_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/signature_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/sitemap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/splay-tree_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/splay-tree_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/splay-tree_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/sponsors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/static_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/static_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/static_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/statistic.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/statistic_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/statistic_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/statistic_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/stream-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/stream-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/stream.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/stream.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/stream_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/stream_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/stream_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/stream_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/stream_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/stream_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/string_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/string___8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/string___8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/structHuffmanTable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/structSemaphoreInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__AffineMatrix.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__Ascii85Info.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__BlobInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__CacheInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__CacheMethods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__CacheView.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ChannelStatistics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ChromaticityInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__Cluster.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__CoderInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ColorInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ColorPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/struct__CompositeOptions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ConfigureInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ContributionInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__CubeInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__DIR.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__DataSegmentInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__DelegateInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__DiversityPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__DoublePixelPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__DrawInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/struct__DrawVTable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/struct__DrawingWand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__EdgeInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ElementInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ElementReference.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__EntryInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ErrorInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__EventInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ExceptionInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ExtentPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__FrameInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__FxInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__GeometryInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__GhostscriptVectors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__GradientInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__HandlerInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__HashmapInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__Image.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ImageAttribute.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ImageInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__IntervalTree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__LinkedListInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__LocaleInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__LogInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__LongPixelPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MagicInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MagickInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MagickPixelPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/struct__MagickWand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MedianListNode.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MedianPixelList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MedianSkipList.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MemoryInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MimeInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ModuleInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__MontageInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__NTMEMORYSTATUSEX.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__NexusInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__NodeInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__Nodes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__OptionInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__PathInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/struct__PixelIterator.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__PixelPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/struct__PixelWand.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__PointInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__PolygonInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__PrimaryInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__PrimitiveInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ProfileInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__QuantizeInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__QuantumInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__QuantumState.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__RandomInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__RealPixelPacket.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__RectangleInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__RegistryInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ResampleFilter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ResizeFilter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ResourceInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__SegmentInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__SignatureInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__SplayTreeInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__StopInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__StreamInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__StringInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ThresholdMap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__Timer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__TimerInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__TokenInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__TypeInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__TypeMetric.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ViewInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__XImportInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__XMLTreeInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__XMLTreeRoot.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__XWidgetInfo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ZeroCrossing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__dirdesc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/struct__ile3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/structdirent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/studio_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/studio_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/studio_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/studio_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/subversion.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/t-shirt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/threshold_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/threshold_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/threshold_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/thresholds.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/thresholds.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/thumbnail-anatomy-framed.fig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/Magick++/thumbnail-anatomy-plain.fig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/timer_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/timer_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/timer_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/token_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/token_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/token_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/transform.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/transform_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/transform_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/transform_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/tree.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/type-ghostscript.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/type-ghostscript.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/type-windows.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/type.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/type.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/type_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/type_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/type_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/utility_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/utility_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/utility_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/version.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/version_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/version_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/version_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/vms_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/vms_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/vms_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/wand-view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/source/wand.c" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/wand_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/wand_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/wand_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickWand/wandtest_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/widget_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/widget_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/widget_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/xml-tree_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/xml-tree_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/xml-tree_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/xwindow-private_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/xwindow-private_8h.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/xwindow_8c.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/xwindow_8h-source.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/ImageMagick-6.8.6-7/www/api/MagickCore/xwindow_8h.html" />
-      <change type="DELETED" beforePath="C:\Users\gengzu\nodejs\PhotoGallery\bin\convert.exe" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/photo.js" afterPath="$PROJECT_DIR$/routes/photo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/html/photo/details.html" afterPath="$PROJECT_DIR$/public/html/photo/details.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375018563019" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375076586513" ignored="false" />
     <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374918171088" ignored="false" />
     <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375031243309" ignored="false" />
     <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998608906" ignored="false" />
     <file path="/photoGallery.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998419926" ignored="false" />
-    <file path="/details.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374998715349" ignored="false" />
+    <file path="/details.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375078290379" ignored="false" />
     <file path="/photos.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375007562444" ignored="false" />
     <file path="/upload.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374997311550" ignored="false" />
     <file path="/layout.jade" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374995402913" ignored="false" />
@@ -1112,10 +48,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="photo.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="photo.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/photo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="92" selection-start="3650" selection-end="3650" vertical-scroll-proportion="0.65510595">
+            <state line="97" column="92" selection-start="3650" selection-end="3650" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="16" selection-start="167" selection-end="167" vertical-scroll-proportion="0.10344828">
               <folding />
             </state>
           </provider>
@@ -1180,10 +125,10 @@
         <option value="$PROJECT_DIR$/public/html/photo/upload.html" />
         <option value="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
         <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
-        <option value="$PROJECT_DIR$/public/html/photo/details.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/html/photos.html" />
         <option value="$PROJECT_DIR$/routes/photo.js" />
+        <option value="$PROJECT_DIR$/public/html/photo/details.html" />
       </list>
     </option>
   </component>
@@ -1663,19 +608,27 @@
       <created>1375018568291</created>
       <updated>1375018568291</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add static linked IM">
+      <created>1375076562245</created>
+      <updated>1375076562245</updated>
+    </task>
+    <task id="LOCAL-00043" summary="delete docs">
+      <created>1375076597588</created>
+      <updated>1375076597588</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3263889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984147" sideWeight="0.7771588" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24984147" sideWeight="0.7771588" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1731,7 +684,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix path ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="delete docs" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1745,8 +698,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="file upload func" />
-    <MESSAGE value="simple display photos" />
     <MESSAGE value="app configuration settings" />
     <MESSAGE value="delete photo" />
     <MESSAGE value="user registration form and simple func&#10;simple admin part" />
@@ -1770,6 +721,8 @@
     <MESSAGE value="fix path" />
     <MESSAGE value="fix path 2" />
     <MESSAGE value="fix path ..." />
+    <MESSAGE value="add static linked IM" />
+    <MESSAGE value="delete docs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1828,11 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="449" selection-end="449" vertical-scroll-proportion="0.31034482" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="5" selection-start="192" selection-end="192" vertical-scroll-proportion="0.33464566">
@@ -1872,7 +820,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/photo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="92" selection-start="3650" selection-end="3650" vertical-scroll-proportion="0.65510595">
+        <state line="97" column="92" selection-start="3650" selection-end="3650" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="16" selection-start="167" selection-end="167" vertical-scroll-proportion="0.10344828">
           <folding />
         </state>
       </provider>
