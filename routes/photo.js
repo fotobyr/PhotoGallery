@@ -14,6 +14,7 @@ module.exports = function(app){
     var im = require('imagemagick');
     var path = require('path');
     var os = require('os');
+    var fs = require('fs');
 
     app.get('/photo/:photoId', function(req, res){
         photos.findById(req.params.photoId, function(err, doc){
@@ -71,25 +72,34 @@ module.exports = function(app){
 
         promise.success(function(doc){
             var smallImage = path.normalize(os.tmpDir()) + path.sep + doc._id + '-small' + fileExt;
-            im.convert.path = path.join(__dirname, '..', 'bin') + path.sep + 'convert.exe';
-            //im.convert.path = 'C:\\DWASFiles\\Sites\\gengzu-gallery\\VirtualDirectory0\\site\\wwwroot\\bin\\convert.exe';
-            console.log(im.convert.path);
+
+            var imBinaryPath = path.join(__dirname, '..', 'bin', 'ImageMagick-6.8.6-7') + path.sep;
+
+            im.convert.path = imBinaryPath + 'convert.exe';
+            im.identify.path = imBinaryPath + 'identify.exe';
+
             im.crop({
                 srcPath: req.files.imageFile.path,
                 dstPath: smallImage,
                 width: 177,
                 height: 180,
+                srcFormat: 'jpg',
+                format: 'jpg',
                 strip: true
             }, function(err, stdout, stderr){
-                if (err) throw err;
-                    var azureFileName = doc._id + fileExt;
+                if (err)
+                {   console.log(err);
+                    throw err;
+                }
 
-                    uploadToAzure(blobService, req.app.settings.blobPhotoName, azureFileName, req.files.imageFile.path, function(){
-                        uploadToAzure(blobService, req.app.settings.blobThumbnailsName, azureFileName, smallImage, function(){
-                            console.log('uploaded');
-                            res.redirect('/');
-                        })
-                    });
+                var azureFileName = doc._id + fileExt;
+
+                uploadToAzure(blobService, req.app.settings.blobPhotoName, azureFileName, req.files.imageFile.path, function(){
+                    uploadToAzure(blobService, req.app.settings.blobThumbnailsName, azureFileName, smallImage, function(){
+                        console.log('uploaded');
+                        res.redirect('/');
+                    })
+                });
             });
         });
     });
