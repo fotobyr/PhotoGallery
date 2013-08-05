@@ -41,10 +41,10 @@ var configuration = require('./routes/configuration');
 app.get('/configuration', configuration.get);
 
 var user = require('./routes/user');
-app.get('/user', user.list);
-app.post('/user', user.create);
-app.del('/user/:userId', user.delete);
-app.post('/user/login', user.login);
+app.get('/users', user.list);
+app.post('/users', user.create);
+app.del('/users/:userId', user.delete);
+app.post('/users/login', user.login);
 
 require('./routes/photo')(app);
 

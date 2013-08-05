@@ -16,14 +16,19 @@ module.exports = function(app){
     var os = require('os');
     var fs = require('fs');
 
-    app.get('/photo/:photoId', function(req, res){
+    app.get('/photos/:photoId', function(req, res){
         photos.findById(req.params.photoId, function(err, doc){
             res.json(preparePhoto(doc, req));
         });
     });
 
-    app.get('/photo', function(req, res){
+    app.get('/photos', function(req, res){
         photos.find({}, function(err, docs){
+            if (docs == null){
+                res.json([]);
+                return;
+            }
+
             docs.forEach(function(photo){
                 photo.url = getPhotoUrl(photo, req, req.app.settings.blobPhotoName);
                 photo.preview = getPhotoUrl(photo, req, req.app.settings.blobThumbnailsName);
@@ -32,7 +37,7 @@ module.exports = function(app){
         });
     });
 
-    app.delete('/photo/:photoId', function(req, res){
+    app.delete('/photos/:photoId', function(req, res){
         photos.remove({_id: req.params.photoId});
         res.json({photoId: req.params.photoId});
     });
@@ -53,7 +58,7 @@ module.exports = function(app){
         return ext.replace('.', '');
     }
 
-    app.post('/photo/upload', function(req, res){
+    app.post('/photos/upload', function(req, res){
 
         var accountName = req.app.settings.blobAccountName;
         var accountKey = req.app.settings.blobAccountKey;

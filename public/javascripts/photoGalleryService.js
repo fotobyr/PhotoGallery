@@ -8,7 +8,7 @@
 
 angular.module('photoGalleryService', ['ngResource'])
     .factory('Photo', function($resource, $cacheFactory, $timeout){
-        var photos = $resource('/photo/:photoId', {}, {
+        var photos = $resource('/photos/:photoId', {}, {
             list: { method: 'GET', isArray: true },
             get: { method: 'GET' },
             delete: {method: 'DELETE'}
@@ -46,7 +46,7 @@ angular.module('photoGalleryService', ['ngResource'])
             }
         }
 }).factory("User", function($resource){
-        return $resource('/user/:userId', {}, {
+        return $resource('/users/:userId', {}, {
             login: {method: 'POST', url: '/user/login'}
         });
 }).factory('Notify', function(){
