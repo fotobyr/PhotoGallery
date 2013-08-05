@@ -12,7 +12,7 @@
                 <dt>Общий рейтинг</dt>
                 <dd>0</dd>
                 <dt>Добавлено</dt>
-                <dd>{{ photo.added | date:'dd MMMM yyyy' }}</dd>
+                <dd>{{ photo.created | date:'dd MMMM yyyy' }}</dd>
                 <dt>Проголосовать</dt>
                 <dd>
                     control
@@ -20,13 +20,13 @@
             </dl>
         </div>
 
-        <div class="well">
+        <div class="well" ng-hide="photo.createdBy.id == null">
             <h3>О авторе</h3>
             <dl>
                 <dt>Имя</dt>
-                <dd><a href="/@Model.User.Id">[user name]</a></dd>
+                <dd><a href="#/users/{{ photo.createdBy.id }}">{{ photo.createdBy.name }}</a></dd>
                 <dt>Дата регистрации</dt>
-                <dd>[date]</dd>
+                <dd>{{ photo.createdBy.created | date:'dd MMMM yyyy' }}</dd>
             </dl>
         </div>
 

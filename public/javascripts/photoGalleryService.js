@@ -47,7 +47,7 @@ angular.module('photoGalleryService', ['ngResource'])
         }
 }).factory("User", function($resource){
         return $resource('/users/:userId', {}, {
-            login: {method: 'POST', url: '/user/login'}
+            login: {method: 'POST', url: '/users/login'}
         });
 }).factory('Notify', function(){
         return {

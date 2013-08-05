@@ -72,7 +72,12 @@ module.exports = function(app){
             title: req.param('fileName', req.files.imageFile.name),
             fileOriginalName: req.files.imageFile.name,
             fileExt: fileExt,
-            added: new Date()
+            created: new Date(),
+            createdBy: {
+                id: req.session.userId,
+                name: req.session.username,
+                created: req.session.userCreated
+            }
         });
 
         promise.success(function(doc){

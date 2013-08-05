@@ -38,7 +38,12 @@ exports.create = function(req, res){
 
     var users = monk(req.app.settings.mongoDB).get('users');
 
-    users.insert(newUser, function(error, doc){
+    users.insert({
+        login: newUser.login,
+        email: newUser.email,
+        password: newUser.password,
+        created: new Date()
+    }, function(error, doc){
         if (error) throw error;
         res.send('saved with id ' + doc._id);
     });
@@ -51,8 +56,10 @@ exports.login = function(req, res){
         .on('success', function(doc){
             if (doc != null) {
                 req.session.authorized = true;
-                req.session.username = doc.email;
+                req.session.username = doc.login;
+                req.session.userEmail = doc.email;
                 req.session.userId = doc._id;
+                req.session.userCreated = doc.created;
             }
 
             res.json({user: doc});
