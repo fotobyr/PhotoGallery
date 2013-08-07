@@ -1,19 +1,19 @@
-<form class="form-horizontal">
+<form name="login_form" novalidate ng-submit="login()" class="form-horizontal">
     <fieldset>
         <legend>Войти</legend>
 
         <div class="form-group">
             <label for="email" class="col-lg-2 control-label">E-Mail</label>
             <div class="col-lg-3">
-                <input type="email" class="form-control" ng-model="user.email" />
+                <input type="email" class="form-control" ng-model="user.email" placeholder="E-Mail" required />
             </div>
         </div>
 
         <div class="form-group">
             <label for="password" class="col-lg-2 control-label">Пароль</label>
             <div class="col-lg-3">
-                <input type="password" class="form-control" ng-model="user.password" />
-                <button type="submit" value="Upload" class="btn btn-primary" style="margin-top: 10px;" ng-click="login()">Войти</button>
+                <input type="password" class="form-control" ng-model="user.password" placeholder="Password" required  />
+                <button type="submit" value="Upload" class="btn btn-primary" style="margin-top: 10px;" ng-disabled="login_form.$invalid">Войти</button>
             </div>
         </div>
 

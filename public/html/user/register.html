@@ -1,33 +1,33 @@
-<form class="form-horizontal">
+<form class="form-horizontal" novalidate ng-submit="register()" name="register_form">
     <fieldset>
         <legend>Регистрация</legend>
 
         <div class="form-group">
             <label for="login" class="col-lg-2 control-label">Логин</label>
             <div class="col-lg-3">
-                <input type="text" class="form-control" ng-model='newUser.login' />
+                <input type="text" class="form-control" ng-model="newUser.login" required />
             </div>
         </div>
 
         <div class="form-group">
             <label for="email" class="col-lg-2 control-label">E-Mail</label>
             <div class="col-lg-3">
-                <input type="email" class="form-control" ng-model="newUser.email" />
+                <input type="email" class="form-control" ng-model="newUser.email" required />
             </div>
         </div>
 
         <div class="form-group">
             <label for="password" class="col-lg-2 control-label">Пароль</label>
             <div class="col-lg-3">
-                <input type="password" class="form-control" ng-model="newUser.password" />
+                <input type="password" class="form-control" ng-model="newUser.password" required />
             </div>
         </div>
 
         <div class="form-group">
             <label for="repeatPassword" class="col-lg-2 control-label">Еще раз пароль</label>
             <div class="col-lg-3">
-                <input type="password" class="form-control" ng-model="newUser.repeatPassword" />
-                <button type="submit" value="Upload" class="btn btn-primary" style="margin-top: 10px;" ng-click="register()">Зарегистрироваться</button>
+                <input type="password" class="form-control" ng-model="newUser.repeatPassword" required />
+                <button type="submit" value="Upload" class="btn btn-primary" style="margin-top: 10px;" ng-disabled="register_form.$invalid">Зарегистрироваться</button>
             </div>
         </div>
 
