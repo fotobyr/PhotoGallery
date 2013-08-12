@@ -18,7 +18,15 @@ module.exports = function(app){
 
     app.get('/photos/:photoId', function(req, res){
         photos.findById(req.params.photoId, function(err, doc){
-            res.json(preparePhoto(doc, req));
+            var photo = preparePhoto(doc, req);
+            photo.yourVote = 0;
+            res.json(photo);
+        });
+    });
+
+    app.post('/photos/:photoId/vote', function(req, res){
+        photos.findById(req.params.photoId, function(err, doc){
+            res.json({msg: req.body.vote});
         });
     });
 

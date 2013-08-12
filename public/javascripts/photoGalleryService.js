@@ -11,7 +11,8 @@ angular.module('photoGalleryService', ['ngResource'])
         var photos = $resource('/photos/:photoId', {}, {
             list: { method: 'GET', isArray: true },
             get: { method: 'GET' },
-            delete: {method: 'DELETE'}
+            delete: { method: 'DELETE'},
+            vote: { method: 'POST', url: '/photos/:photoId/vote' }
         });
 
         var photosCache = $cacheFactory('photos');
@@ -43,6 +44,9 @@ angular.module('photoGalleryService', ['ngResource'])
             delete: function(photoId){
                 photos.delete({photoId: photoId});
                 photosCache.put('list', null);
+            },
+            create: function(){
+                return new photos();
             }
         }
 }).factory("User", function($resource){

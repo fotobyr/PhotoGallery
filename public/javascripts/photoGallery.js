@@ -26,6 +26,14 @@ function photoDetailsCtrl($scope, $routeParams, $location, Photo, AppConfigurati
             $location.path('/');
         }
     }
+
+    $scope.voted = function(vote) {
+        var fakePhoto = Photo.create();
+        fakePhoto.vote = vote;
+        fakePhoto.$vote({photoId: $scope.photo._id});
+
+        $scope.photo.yourVote = vote;
+    }
 }
 
 function galleryCtrl($scope, Photo){
@@ -84,5 +92,23 @@ photoGalleryApp.directive('deleteImage', function(){
         template: '<img ng-show="config.isAdmin" ng-click="delete()" class="deleteBtn" src="/img/DeleteRed.png" title="{{ config.isAdmin }}" />',
         link: function($scope, element, attrs){
         }
+    }
+});
+
+photoGalleryApp.directive('vote', function(){
+    return {
+        link: function(scope, element, attrs){
+
+        },
+        restrict: 'E',
+        replace: true,
+        template:   '<div class="btn-group">' +
+                    '<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">' +
+                    'Ваш голос <span class="caret"></span>' +
+                    '</button>' +
+                    '<ul class="dropdown-menu">'+
+                    '<li ng-repeat="n in [1,2,3,4,5,6,7,8,9,10]"><a href ng-click="voted(n)">{{ n }}</a></li>'+
+                    '</ul>'+
+                    '</div>'
     }
 });

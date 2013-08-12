@@ -13,9 +13,14 @@
                 <dd>0</dd>
                 <dt>Добавлено</dt>
                 <dd>{{ photo.created | date:'dd MMMM yyyy' }}</dd>
-                <dt>Проголосовать</dt>
+                <dt>{{ photo.yourVote == 0 ? 'Проголосовать' : 'Ваш голос'}}</dt>
                 <dd>
-                    control
+                    <div ng-hide="photo.yourVote > 0">
+                        <vote voted="voted()"></vote>
+                    </div>
+                    <div ng-hide="photo.yourVote == 0">
+                        <button class="btn btn-success" style="width: 90px;" href="#">{{ photo.yourVote }}</button>
+                    </div>
                 </dd>
             </dl>
         </div>
