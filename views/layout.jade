@@ -15,17 +15,17 @@ html(ng-app='galleryApp')
     script(type='text/javascript', src='//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js')
     body
      div.container
-      div.navbar.navbar-default
-        a.navbar-brand(href='/') photo gallery
+      div.navbar.navbar-default(ng-controller='mainMenuCtrl')
+        a.navbar-brand(href='/') photo gallery {{ mf }}
         ul.nav.navbar-nav
-            li: a(href='#') Главная
-            li: a(href='#') Призеры
-            li: a(href='#/photo/upload') Загрузить
-            li: a(href='#') Отзывы
-            li: a(href='#') О нас
+            li(ng-class="{active: isActive('/')}"): a(href='#') Главная
+            li(ng-class="{active: isActive('/awarded')}"): a(href='#/awarded') Призеры
+            li(ng-class="{active: isActive('photo/upload')}"): a(href='#/photo/upload') Загрузить
+            li(ng-class="{active: isActive('/feedback')}"): a(href='#/feedback') Отзывы
+            li(ng-class="{active: isActive('/about')}"): a(href='#/about') О нас
         ul.nav.navbar-nav.pull-right
-            li: a(href='#/login') Войти
-            li: a(href='#/register') Регистрация
+            li(ng-class="{active: isActive('login')}"): a(href='#/login') Войти
+            li(ng-class="{active: isActive('register')}"): a(href='#/register') Регистрация
 
       div.container(ng-view)
        block content

@@ -6,6 +6,7 @@ photoGalleryApp.config(function($routeProvider, $locationProvider){
 		.when('/', {controller: galleryCtrl, templateUrl: '/html/photos.html'})
         .when('/photo/upload', { templateUrl: '/html/photo/upload.html' })
 		.when('/photo/:photoId', {controller: photoDetailsCtrl, templateUrl: '/html/photo/details.html'})
+        .when('/awarded', { controller: awardedCtrl, templateUrl: '/html/photo/awarded.html' })
 
         .when('/admin', { templateUrl: '/html/admin/admin.html' })
         .when('/admin/users', { controller: adminUsersCtrl, templateUrl: '/html/admin/users.html'})
@@ -13,8 +14,29 @@ photoGalleryApp.config(function($routeProvider, $locationProvider){
         .when('/login', { controller: userLoginCtrl, templateUrl: '/html/user/login.html'})
         .when('/register', { controller: userRegisterCtrl, templateUrl: '/html/user/register.html'})
 
+        .when('/about', { templateUrl: '/html/about.html' })
+        .when('/feedback', { controller: feedbackCtrl, templateUrl: '/html/feedback.html' })
+
 		.otherwise({redirectTo: '/'});
 });
+
+function mainMenuCtrl($scope, $location){
+    $scope.mf = 'ebana';
+
+    $scope.isActive = function(path){
+        return path == '/'
+            ? $location.path() == '/'
+            : $location.path().indexOf(path) > -1;
+    }
+}
+
+function feedbackCtrl(){
+
+}
+
+function awardedCtrl($scope){
+
+}
 
 function photoDetailsCtrl($scope, $routeParams, $location, Photo, AppConfiguration){
 	$scope.photo = Photo.get($routeParams.photoId);
