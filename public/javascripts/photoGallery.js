@@ -20,8 +20,11 @@ photoGalleryApp.config(function($routeProvider, $locationProvider){
 		.otherwise({redirectTo: '/'});
 });
 
-function mainMenuCtrl($scope, $location){
+function mainMenuCtrl($scope, $location, AppConfiguration){
     $scope.mf = 'ebana';
+    $scope.config = AppConfiguration.current();
+
+    console.log($scope.config);
 
     $scope.isActive = function(path){
         return path == '/'

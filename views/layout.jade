@@ -24,8 +24,9 @@ html(ng-app='galleryApp')
             li(ng-class="{active: isActive('/feedback')}"): a(href='#/feedback') Отзывы
             li(ng-class="{active: isActive('/about')}"): a(href='#/about') О нас
         ul.nav.navbar-nav.pull-right
-            li(ng-class="{active: isActive('login')}"): a(href='#/login') Войти
-            li(ng-class="{active: isActive('register')}"): a(href='#/register') Регистрация
+            li(ng-class="{active: isActive('login')}", ng-show="config.isGuest"): a(href='#/login') Войти
+            li(ng-class="{active: isActive('register')}", ng-show="config.isGuest"): a(href='#/register') Регистрация
+            li: a(ng-bind='config.userName')
 
       div.container(ng-view)
        block content

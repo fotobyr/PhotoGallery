@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/photo/awarded.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/feedback.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/configuration.js" afterPath="$PROJECT_DIR$/routes/configuration.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/photoGallery.js" afterPath="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoGallery.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1377008135475" ignored="false" />
+    <file path="/Dummy.txt" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1377010616129" ignored="false" />
     <file path="/app.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374918171088" ignored="false" />
     <file path="/photo.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1376299464869" ignored="false" />
     <file path="/photoGalleryService.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1376299533329" ignored="false" />
-    <file path="/photoGallery.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1377010401660" ignored="false" />
+    <file path="/photoGallery.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1377011812488" ignored="false" />
     <file path="/details.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1376297898008" ignored="false" />
     <file path="/photos.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375007562444" ignored="false" />
     <file path="/upload.html" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375680823551" ignored="false" />
-    <file path="/layout.jade" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1377009767016" ignored="false" />
+    <file path="/layout.jade" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1377012335182" ignored="false" />
     <file path="/user.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375688640977" ignored="false" />
     <file path="/a.dummy" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1375682002601" ignored="false" />
     <file path="/configuration.js" changelist="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" time="1374922531189" ignored="false" />
@@ -58,34 +56,16 @@
       <file leaf-file-name="photoGallery.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="99" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+            <state line="116" column="24" selection-start="3500" selection-end="3524" vertical-scroll-proportion="-13.08">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/about.html">
+      <file leaf-file-name="photoGalleryService.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="awarded.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/photo/awarded.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feedback.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/html/feedback.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="10" selection-start="10" selection-end="10" vertical-scroll-proportion="-0.0">
+            <state line="70" column="28" selection-start="2174" selection-end="2190" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,7 +74,16 @@
       <file leaf-file-name="layout.jade" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/layout.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="75" selection-start="858" selection-end="858" vertical-scroll-proportion="0.30222222">
+            <state line="11" column="34" selection-start="747" selection-end="747" vertical-scroll-proportion="0.27703702">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="20" selection-start="788" selection-end="788" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
@@ -121,7 +110,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/html/photos.html" />
         <option value="$PROJECT_DIR$/public/html/photo/upload.html" />
-        <option value="$PROJECT_DIR$/routes/configuration.js" />
         <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/public/html/user/login.html" />
         <option value="$PROJECT_DIR$/public/html/user/register.html" />
@@ -133,6 +121,7 @@
         <option value="$PROJECT_DIR$/public/html/awarded.html" />
         <option value="$PROJECT_DIR$/public/html/feedback.html" />
         <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
+        <option value="$PROJECT_DIR$/routes/configuration.js" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
       </list>
     </option>
@@ -595,7 +584,11 @@
       <created>1377008140738</created>
       <updated>1377008140738</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="modify main menu to get it better">
+      <created>1377010622919</created>
+      <updated>1377010622919</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -663,7 +656,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="migration to twitter bootstrap 3.0.0 release" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify main menu to get it better" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -677,7 +670,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="error handling #3" />
     <MESSAGE value="error handling #4" />
     <MESSAGE value="login page" />
     <MESSAGE value="simple test" />
@@ -702,6 +694,7 @@
     <MESSAGE value="vote UI logic" />
     <MESSAGE value="enable compression" />
     <MESSAGE value="migration to twitter bootstrap 3.0.0 release" />
+    <MESSAGE value="modify main menu to get it better" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -717,11 +710,6 @@
     <entry file="file://$PROJECT_DIR$/public/javascripts/ui.common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/configuration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="269" selection-end="269" vertical-scroll-proportion="0.19428572" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/html/user/register.html">
@@ -742,20 +730,6 @@
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="39" selection-start="1606" selection-end="1617" vertical-scroll-proportion="0.5982275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="85" selection-start="788" selection-end="788" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="36" selection-start="1522" selection-end="1522" vertical-scroll-proportion="0.13777778">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -793,16 +767,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="28" selection-start="2174" selection-end="2190" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/html/photo/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="20" selection-start="788" selection-end="788" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="99" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+        <state line="116" column="24" selection-start="3500" selection-end="3524" vertical-scroll-proportion="-13.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/configuration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="81" selection-start="207" selection-end="207" vertical-scroll-proportion="0.22666667">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="75" selection-start="858" selection-end="858" vertical-scroll-proportion="0.30222222">
+        <state line="11" column="34" selection-start="747" selection-end="747" vertical-scroll-proportion="0.27703702">
           <folding />
         </state>
       </provider>
