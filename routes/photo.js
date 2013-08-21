@@ -8,25 +8,31 @@
 
 module.exports = function(app){
 
-    var azure = require('azure');
-    var db = require('monk')(app.get('mongoDB'));
-    var photos = db.get('photos');
-    var im = require('imagemagick');
-    var path = require('path');
-    var os = require('os');
-    var fs = require('fs');
+    var azure = require('azure'),
+        db = require('monk')(app.get('mongoDB')),
+        photos = db.get('photos'),
+        im = require('imagemagick'),
+        path = require('path'),
+        os = require('os'),
+        fs = require('fs'),
+        voteService = require('../lib/photoVoteService');
 
     app.get('/photos/:photoId', function(req, res){
         photos.findById(req.params.photoId, function(err, doc){
             var photo = preparePhoto(doc, req);
             photo.yourVote = 0;
+            photo.currentRating = voteService.getCurrentRating(doc);
+            delete photo.rating;
             res.json(photo);
         });
     });
 
     app.post('/photos/:photoId/vote', function(req, res){
-        photos.findById(req.params.photoId, function(err, doc){
-            res.json({msg: req.body.vote});
+        photos.findById(req.params.photoId, function(err, photo){
+            voteService.setCurrentRating(photo, req.body.vote);
+            photos.updateById(req.params.photoId, photo, function(){
+                res.json({msg: req.body.vote});
+            });
         });
     });
 
