@@ -69,6 +69,11 @@ exports.login = function(req, res){
         });
 }
 
+exports.logout = function(req, res){
+    req.session = null;
+    res.json({user: null});
+}
+
 exports.delete = function(req, res){
     var users = monk(req.app.settings.mongoDB).get('users');
 

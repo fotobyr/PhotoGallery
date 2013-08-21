@@ -6,8 +6,9 @@ html(ng-app='galleryApp')
     link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css')
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/1.3.1/css/toastr.min.css')
     script(type='text/javascript', src='http://code.jquery.com/jquery-2.0.3.min.js')
-    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular.min.js')
-    script(type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/angularjs/1.1.5/angular-resource.min.js')
+    script(type='text/javascript', src='http://code.angularjs.org/1.2.0rc1/angular.js')
+    script(type='text/javascript', src='http://code.angularjs.org/1.2.0rc1/angular-route.min.js')
+    script(type='text/javascript', src='http://code.angularjs.org/1.2.0rc1/angular-resource.min.js')
     script(type='text/javascript', src='/javascripts/photoGallery.js')
     script(type='text/javascript', src='/javascripts/photoGalleryService.js')
     script(type='text/javascript', src='/javascripts/ui.common.js')
@@ -26,7 +27,8 @@ html(ng-app='galleryApp')
         ul.nav.navbar-nav.pull-right
             li(ng-class="{active: isActive('login')}", ng-show="config.isGuest"): a(href='#/login') Войти
             li(ng-class="{active: isActive('register')}", ng-show="config.isGuest"): a(href='#/register') Регистрация
-            li: a(ng-bind='config.userName')
+            li(ng-show="!config.isGuest"): a: strong {{ config.userName }}
+            li(ng-show="!config.isGuest"): a(href="#", ng-click='logOut()', ng-bind='logoutText')
 
       div.container(ng-view)
        block content

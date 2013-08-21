@@ -51,7 +51,8 @@ angular.module('photoGalleryService', ['ngResource'])
         }
 }).factory("User", function($resource){
         return $resource('/users/:userId', {}, {
-            login: {method: 'POST', url: '/users/login'}
+            login: { method: 'POST', url: '/users/login' },
+            logout: { method: 'POST', url: '/users/logout' }
         });
 }).factory('Notify', function(){
         return {
@@ -82,8 +83,8 @@ angular.module('photoGalleryService', ['ngResource'])
                 }
                 return cfg;
             },
-            reset: function(){
-                cfg = null;
+            refresh: function(){
+                cfg = config.get();
             }
         }
     });

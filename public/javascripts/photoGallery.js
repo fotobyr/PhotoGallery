@@ -1,4 +1,4 @@
-var photoGalleryApp = angular.module('galleryApp', ['photoGalleryService']);
+var photoGalleryApp = angular.module('galleryApp', ['photoGalleryService', 'ngRoute']);
 
 photoGalleryApp.config(function($routeProvider, $locationProvider){
     $locationProvider.html5Mode(false);
@@ -20,11 +20,21 @@ photoGalleryApp.config(function($routeProvider, $locationProvider){
 		.otherwise({redirectTo: '/'});
 });
 
-function mainMenuCtrl($scope, $location, AppConfiguration){
+function mainMenuCtrl($scope, $location, AppConfiguration, User){
     $scope.mf = 'ebana';
     $scope.config = AppConfiguration.current();
+    $scope.userName = '666';
+    $scope.logoutText = '[ Выход ]';
 
-    console.log($scope.config);
+    $scope.$watch(AppConfiguration.current, function(){
+        $scope.config = AppConfiguration.current();
+    })
+
+    $scope.logOut = function(){
+        User.logout({}, function(){
+            AppConfiguration.refresh();
+        });
+    }
 
     $scope.isActive = function(path){
         return path == '/'
@@ -74,7 +84,7 @@ function userLoginCtrl($scope, $location, User, Notify, AppConfiguration){
                 Notify.warning('Пароль или E-mail не верный');
             } else {
                 Notify.success('Вы успешно вошли.');
-                AppConfiguration.reset();
+                AppConfiguration.refresh();
                 $location.path('/');
             }
         }, function(err){

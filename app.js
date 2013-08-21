@@ -46,6 +46,7 @@ app.get('/users', user.list);
 app.post('/users', user.create);
 app.del('/users/:userId', user.delete);
 app.post('/users/login', user.login);
+app.post('/users/logout', user.logout);
 
 require('./routes/photo')(app);
 
