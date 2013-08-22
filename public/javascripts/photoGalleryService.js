@@ -12,31 +12,38 @@ angular.module('photoGalleryService', ['ngResource'])
             list: { method: 'GET', isArray: true },
             get: { method: 'GET' },
             delete: { method: 'DELETE'},
-            vote: { method: 'POST', url: '/photos/:photoId/vote' }
+            vote: { method: 'POST', url: '/photos/:photoId/vote' },
+            topRated: { method: 'GET', isArray: true, url: '/photosByTotalRating'}
         });
 
         var photosCache = $cacheFactory('photos');
         var timer;
 
+        var getFromCache = function(cacheName, populateFunc){
+            var photosList = photosCache.get(cacheName);
+
+            if (photosList == undefined){
+                photosList = populateFunc();
+                photosCache.put(cacheName, photosList);
+            }
+
+            return photosList;
+        }
+
         return {
             list: function(){
 
-                if (timer == undefined)
-                {
+                if (timer == undefined){
                     timer = $timeout(function(){
-                        photosCache.put('list', null);
+                        photosCache.removeAll();
                         timer = null;
-                    }, 60000);
+                    }, 10000);
                 }
 
-                var photosList = photosCache.get('list');
-
-                if (photosList == undefined){
-                    photosList = photos.list();
-                    photosCache.put('list', photosList);
-                }
-
-                return photosList;
+                return getFromCache('list', photos.list);
+            },
+            listTopRated: function(){
+                return getFromCache('topRated', photos.topRated);
             },
             get: function(photoId){
                 return photos.get({photoId: photoId});

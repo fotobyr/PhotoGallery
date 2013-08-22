@@ -73,6 +73,7 @@ function photoDetailsCtrl($scope, $routeParams, $location, Photo, AppConfigurati
 
 function galleryCtrl($scope, Photo){
 	$scope.photos = Photo.list();
+    $scope.topRatedPhotos = Photo.listTopRated();
 }
 
 function userLoginCtrl($scope, $location, User, Notify, AppConfiguration){

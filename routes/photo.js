@@ -16,6 +16,8 @@ module.exports = function(app){
         os = require('os'),
         fs = require('fs'),
         voteService = require('../lib/photoVoteService'),
+        repositoryLib = require('../lib/commonRepository'),
+        repository = new repositoryLib(app.get('mongoDB')),
         mongoose = require('mongoose');
 
     app.get('/photos/:photoId', function(req, res){
@@ -37,17 +39,27 @@ module.exports = function(app){
         });
     });
 
+    app.get('/photosByTotalRating', function(req, res){
+        repository.mapReduce(repository.PhotosByTotalRating, function(err, docs){
+            var result = [];
+
+            docs.forEach(function(doc){
+                result.push(preparePhoto(doc._id, req));
+            });
+
+            res.json(result);
+        }, {value: -1})
+    });
+
     app.get('/photos', function(req, res){
         photos.find({}, function(err, docs){
             if (docs == null){
                 res.json([]);
                 return;
             }
-
             docs.forEach(function(photo){
-                photo.url = getPhotoUrl(photo, req, req.app.settings.blobPhotoName);
-                photo.preview = getPhotoUrl(photo, req, req.app.settings.blobThumbnailsName);
-            })
+                preparePhoto(photo, req);
+            });
             res.json(docs);
         });
     });
