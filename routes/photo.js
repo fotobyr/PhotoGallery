@@ -15,7 +15,8 @@ module.exports = function(app){
         path = require('path'),
         os = require('os'),
         fs = require('fs'),
-        voteService = require('../lib/photoVoteService');
+        voteService = require('../lib/photoVoteService'),
+        mongoose = require('mongoose');
 
     app.get('/photos/:photoId', function(req, res){
         photos.findById(req.params.photoId, function(err, doc){
