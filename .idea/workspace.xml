@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bccb0e7d-11f9-4fb1-a8b0-c1cd12a4abbb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Node_js_Dependencies_for_PhotoGallery.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PhotoGallery.iml" afterPath="$PROJECT_DIR$/.idea/PhotoGallery.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.jade" afterPath="$PROJECT_DIR$/views/layout.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PhotoGallery.iws" />
@@ -37,10 +35,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="photoGallery.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="photoGallery.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="5" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="2635">
+            <state line="35" column="0" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="2618">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.jade" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/layout.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="97" selection-start="590" selection-end="590" vertical-scroll-proportion="0.20086706" vertical-offset="14" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -73,7 +80,6 @@
         <option value="$PROJECT_DIR$/public/html/awarded.html" />
         <option value="$PROJECT_DIR$/public/html/feedback.html" />
         <option value="$PROJECT_DIR$/routes/configuration.js" />
-        <option value="$PROJECT_DIR$/views/layout.jade" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/user.js" />
         <option value="$PROJECT_DIR$/test/photoVoteService.test.js" />
@@ -81,18 +87,19 @@
         <option value="$PROJECT_DIR$/public/html/photo/details.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/commonRepository.js" />
-        <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
         <option value="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
         <option value="$PROJECT_DIR$/public/html/photos.html" />
         <option value="$PROJECT_DIR$/routes/photo.js" />
+        <option value="$PROJECT_DIR$/public/javascripts/photoGallery.js" />
+        <option value="$PROJECT_DIR$/views/layout.jade" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -120,6 +127,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -300,7 +308,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -618,27 +625,31 @@
       <created>1377170314737</created>
       <updated>1377170314737</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="remove redundant code">
+      <created>1380392238569</created>
+      <updated>1380392238570</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24986821" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24895616" sideWeight="0.7813853" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24875" sideWeight="0.6756393" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39972144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21861471" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.218035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3303671" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32519424" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3243607" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -653,7 +664,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="convert image to preview" />
     <MESSAGE value="add convert utility" />
     <MESSAGE value="fix util path" />
     <MESSAGE value="fix 2" />
@@ -678,7 +688,8 @@
     <MESSAGE value="save user vote" />
     <MESSAGE value="add mongoose library to use mapReduce" />
     <MESSAGE value="add topRatedPhoto category + mapReduce for a photo to get result" />
-    <option name="LAST_COMMIT_MESSAGE" value="add topRatedPhoto category + mapReduce for a photo to get result" />
+    <MESSAGE value="remove redundant code" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove redundant code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -699,11 +710,6 @@
     <entry file="file://$PROJECT_DIR$/routes/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="64" selection-start="1646" selection-end="1646" vertical-scroll-proportion="0.7273769" vertical-offset="0" max-vertical-offset="0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="71" selection-start="2165" selection-end="2165" vertical-scroll-proportion="0.60366553" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/userService.js">
@@ -748,9 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/photoGalleryService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="48" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.07771429" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="37" column="48" selection-start="1209" selection-end="1209" vertical-scroll-proportion="0.07771429" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/photo.js">
@@ -762,14 +766,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/commonRepository.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="18" selection-start="1252" selection-end="1252" vertical-scroll-proportion="1.2456896" vertical-offset="0" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="51" column="18" selection-start="1252" selection-end="1252" vertical-scroll-proportion="1.2456896" vertical-offset="0" max-vertical-offset="1224" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/photoGallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="5" selection-start="2373" selection-end="2373" vertical-scroll-proportion="0.0" vertical-offset="1190" max-vertical-offset="2635">
+        <state line="35" column="0" selection-start="1531" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="2618">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="97" selection-start="590" selection-end="590" vertical-scroll-proportion="0.20086706" vertical-offset="14" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
