@@ -17,7 +17,7 @@ html(ng-app='galleryApp')
     body
      div.container
       div.navbar.navbar-default(ng-controller='mainMenuCtrl')
-        a.navbar-brand(href='/') photo gallery {{ mf }}
+        a.navbar-brand(href='/') photo gallery
         ul.nav.navbar-nav
             li(ng-class="{active: isActive('/')}"): a(href='#') Главная
             li(ng-class="{active: isActive('/awarded')}"): a(href='#/awarded') Призеры

@@ -21,7 +21,6 @@ photoGalleryApp.config(function($routeProvider, $locationProvider){
 });
 
 function mainMenuCtrl($scope, $location, AppConfiguration, User){
-    $scope.mf = 'ebana';
     $scope.config = AppConfiguration.current();
     $scope.userName = '666';
     $scope.logoutText = '[ Выход ]';
