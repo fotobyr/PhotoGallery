@@ -1,0 +1,3 @@
+[submodule "public/ui"]
+	path = public/ui
+	url = https://github.com/gengzu/PhotoGallery.AngularJs
