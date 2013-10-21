@@ -47,7 +47,7 @@
       <file leaf-file-name="ui.common.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/ui/javascripts/ui.common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="214" selection-end="214" vertical-scroll-proportion="0.17037863" vertical-offset="0" max-vertical-offset="898">
+            <state line="8" column="29" selection-start="189" selection-end="189" vertical-scroll-proportion="0.15144767" vertical-offset="0" max-vertical-offset="898">
               <folding />
             </state>
           </provider>
@@ -90,8 +90,8 @@
         <option value="$PROJECT_DIR$/public/javascripts/photoGalleryService.js" />
         <option value="$PROJECT_DIR$/public/html/photos.html" />
         <option value="$PROJECT_DIR$/routes/photo.js" />
-        <option value="$PROJECT_DIR$/public/ui/javascripts/ui.common.js" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
+        <option value="$PROJECT_DIR$/public/ui/javascripts/ui.common.js" />
       </list>
     </option>
   </component>
@@ -732,7 +732,11 @@
       <created>1382339362561</created>
       <updated>1382339362561</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="add subrepo">
+      <created>1382339518282</created>
+      <updated>1382339518282</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -767,7 +771,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="fix util path" />
     <MESSAGE value="fix 2" />
     <MESSAGE value="fix 3&#10;" />
     <MESSAGE value="fix 4" />
@@ -792,7 +795,8 @@
     <MESSAGE value="add topRatedPhoto category + mapReduce for a photo to get result" />
     <MESSAGE value="just new WebStorm configuration" />
     <MESSAGE value="remove UI part and add it as submodule" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove UI part and add it as submodule" />
+    <MESSAGE value="add subrepo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add subrepo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -875,7 +879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/ui/javascripts/ui.common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="214" selection-end="214" vertical-scroll-proportion="0.17037863" vertical-offset="0" max-vertical-offset="898">
+        <state line="8" column="29" selection-start="189" selection-end="189" vertical-scroll-proportion="0.15144767" vertical-offset="0" max-vertical-offset="898">
           <folding />
         </state>
       </provider>
