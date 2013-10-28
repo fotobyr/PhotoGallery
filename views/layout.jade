@@ -15,19 +15,27 @@ html(ng-app='galleryApp')
     script(type='text/javascript', src='//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js')
     body
      div.container
-      div.navbar.navbar-default(ng-controller='mainMenuCtrl')
-        a.navbar-brand(href='/') photo gallery
-        ul.nav.navbar-nav
-            li(ng-class="{active: isActive('/')}"): a(href='#') Главная
-            li(ng-class="{active: isActive('/awarded')}"): a(href='#/awarded') Призеры
-            li(ng-class="{active: isActive('photo/upload')}"): a(href='#/photo/upload') Загрузить
-            li(ng-class="{active: isActive('/feedback')}"): a(href='#/feedback') Отзывы
-            li(ng-class="{active: isActive('/about')}"): a(href='#/about') О нас
-        ul.nav.navbar-nav.pull-right
-            li(ng-class="{active: isActive('login')}", ng-show="config.isGuest"): a(href='#/login') Войти
-            li(ng-class="{active: isActive('register')}", ng-show="config.isGuest"): a(href='#/register') Регистрация
-            li(ng-show="!config.isGuest"): a: strong {{ config.userName }}
-            li(ng-show="!config.isGuest"): a(href="#", ng-click='logOut()', ng-bind='logoutText')
+      nav.navbar.navbar-default(ng-controller='mainMenuCtrl', role='navigation')
+        div.navbar-header
+         button.navbar-toggle(type='button', data-toggle='collapse', data-target=".navbar-ex1-collapse")
+          span.sr-only toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+         a.navbar-brand(href='/') photo gallery
+
+        div.collapse.navbar-collapse.navbar-ex1-collapse
+         ul.nav.navbar-nav
+             li(ng-class="{active: isActive('/')}"): a(href='#') Главная
+             li(ng-class="{active: isActive('/awarded')}"): a(href='#/awarded') Призеры
+             li(ng-class="{active: isActive('photo/upload')}"): a(href='#/photo/upload') Загрузить
+             li(ng-class="{active: isActive('/feedback')}"): a(href='#/feedback') Отзывы
+             li(ng-class="{active: isActive('/about')}"): a(href='#/about') О нас
+         ul.nav.navbar-nav.pull-right
+             li(ng-class="{active: isActive('login')}", ng-show="config.isGuest"): a(href='#/login') Войти
+             li(ng-class="{active: isActive('register')}", ng-show="config.isGuest"): a(href='#/register') Регистрация
+             li(ng-show="!config.isGuest"): a: strong {{ config.userName }}
+             li(ng-show="!config.isGuest"): a(href="#", ng-click='logOut()', ng-bind='logoutText')
 
       div.container(ng-view)
        block content
