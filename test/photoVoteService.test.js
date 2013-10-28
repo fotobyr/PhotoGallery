@@ -98,7 +98,7 @@ describe("VoteServiceTests", function(){
         rating.should.have.property('votes', 1);
     });
 
-    it ('should correct calculate new ration', function(){
+    it ('should correct calculate new rating', function(){
         var key = '2013-05';
 
         var photo = {
@@ -130,5 +130,24 @@ describe("VoteServiceTests", function(){
 
         rating.should.have.property('totalVote', 11);
         rating.should.have.property('votes', 4);
+    });
+
+    it('should return correct total rating', function(){
+        var photo = {
+            rating: {
+                '2013-05' :{
+                    totalVote: 5,
+                    votes: 2
+                },
+                '2013-06' :{
+                    totalVote: 10,
+                    votes: 5
+                }
+            }
+        };
+
+        var totalRating = voteService.getTotalRating(photo);
+
+        totalRating.should.equal(15);
     });
 });

@@ -25,6 +25,7 @@ module.exports = function(app){
             var photo = preparePhoto(doc, req);
             photo.yourVote = 0;
             photo.currentRating = voteService.getCurrentRating(doc);
+            photo.totalRating = voteService.getTotalRating(doc);
             delete photo.rating;
             res.json(photo);
         });
