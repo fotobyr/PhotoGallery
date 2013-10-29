@@ -6,7 +6,8 @@
 var express = require('express')
   , routes = require('./routes')
   , http = require('http')
-  , path = require('path');
+  , path = require('path')
+  , cons = require('consolidate');
 
 var app = express();
 
@@ -21,8 +22,10 @@ app.set('blobStorageUrl', process.env.blobAccountName ? process.env.blobAccountN
 app.set('blobPhotoName', process.env.blobPhotoName || 'photos');
 app.set('blobThumbnailsName', process.env.blobThumbnailsName || 'thumbnails');
 
-app.set('views', __dirname + '/views');
-app.set('view engine', 'jade');
+app.engine('html', cons.swig);
+app.set('view engine', 'html');
+app.set('views', __dirname + '/public/ui/html');
+
 app.use(express.favicon());
 app.use(express.logger('dev'));
 app.use(express.compress());
@@ -37,6 +40,10 @@ app.use(app.router);
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
+
+app.get('/', function(req, res){
+    res.render('index');
+})
 
 var configuration = require('./routes/configuration');
 app.get('/configuration', configuration.get);
