@@ -7,7 +7,7 @@ var express = require('express')
   , routes = require('./routes')
   , http = require('http')
   , path = require('path')
-  , cons = require('consolidate');
+  , swig = require('swig');
 
 var app = express();
 
@@ -22,7 +22,7 @@ app.set('blobStorageUrl', process.env.blobAccountName ? process.env.blobAccountN
 app.set('blobPhotoName', process.env.blobPhotoName || 'photos');
 app.set('blobThumbnailsName', process.env.blobThumbnailsName || 'thumbnails');
 
-app.engine('html', cons.swig);
+app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
 app.set('views', __dirname + '/public/ui/html');
 

@@ -13,7 +13,6 @@
     "mongoose": "*",
     "azure": "*",
     "imagemagick": "*",
-    "consolidate": "*",
     "swig": "*"
   },
   "devDependencies": {
